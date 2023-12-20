@@ -1,0 +1,105 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  padding-top: 56px; /* Ajuste para el Navbar fijo */
+}
+
+section {
+  height: 500px; /* Altura de las secciones para simular contenido */
+  
+}
+
+/* ESTILO BARRA DE SECCIONES--------------------------------------------------------------------------------------------------------*/
+.nav-item:hover {    
+  
+    background-color: #91d2e4; /* Cambiar el color de fondo del enlace activo y al pasar el ratón  */
+}
+
+.nav-link.active {
+    background-color: #91d2e4; /* Cambiar el color de fondo del enlace activo y al pasar el ratón  */
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fff;  
+}
+
+/* ESTILO EXPERIENCIAS---------------------------------------------------------------------------------------------------------------*/
+.contenedor-experiencia {
+  display: flex;
+  border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
+  padding-top: 10px;
+}
+
+.columna-experiencia-detalle {
+  /* flex: 100; Ocupa todo el espacio disponible */
+  padding: 10px; /* Añade un espacio alrededor del contenido */
+ 
+}
+
+.columna-experiencia-imagen {
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 150px;
+}
+
+.experiencia-puesto{
+  font-size: x-large;
+}
+
+.imagen-experiencia{
+  height: auto;
+  width: 100px;
+}
+
+/* ESTILO EDUCACION---------------------------------------------------------------------------------------------------------------*/
+.contenedor-educación{
+  display: flex;
+  border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
+  padding-top: 10px;
+}
+
+.columna-educación-detalle {
+  /* flex: 100; Ocupa todo el espacio disponible */
+  padding: 10px; /* Añade un espacio alrededor del contenido */
+ 
+}
+
+.columna-educación-imagen {
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 150px;
+  padding-bottom: 30px;
+}
+
+.imagen-educacion{
+  height: auto;
+  width: 100px;
+}
+
+
+
+
+
+
+
+/*
+.nav-link.active:hover {
+    color: #fff;  
+}
+*/
+
+/*.navbar-nav .nav-dropdown:hover {
+  color: #91d2e4; /* Cambiar el color al pasar el ratón sobre el enlace 
+}/*
+
+.navbar-nav .nav-dropdown-item.active,
+.navbar-nav .nav-dropdown.active:hover {
+  color: #fff; /* Cambiar el color del enlace activo y al pasar el ratón 
+  background-color: #91d2e4; /* Cambiar el color de fondo del enlace activo y al pasar el ratón 
+}
+
+/* .nav-link.active {
+    background-color: #91d2e4;
+} */

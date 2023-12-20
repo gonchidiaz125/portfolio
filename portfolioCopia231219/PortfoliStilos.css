@@ -1,0 +1,45 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+  padding-top: 56px; /* Ajuste para el Navbar fijo */
+}
+
+section {
+  height: 500px; /* Altura de las secciones para simular contenido */
+  
+}
+
+.nav-item:hover {    
+  
+    background-color: #91d2e4; /* Cambiar el color de fondo del enlace activo y al pasar el ratón  */
+}
+
+.nav-link.active {
+    background-color: #91d2e4; /* Cambiar el color de fondo del enlace activo y al pasar el ratón  */
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fff;  
+}
+
+/*
+.nav-link.active:hover {
+    color: #fff;  
+}
+*/
+
+/*.navbar-nav .nav-dropdown:hover {
+  color: #91d2e4; /* Cambiar el color al pasar el ratón sobre el enlace 
+}/*
+
+.navbar-nav .nav-dropdown-item.active,
+.navbar-nav .nav-dropdown.active:hover {
+  color: #fff; /* Cambiar el color del enlace activo y al pasar el ratón 
+  background-color: #91d2e4; /* Cambiar el color de fondo del enlace activo y al pasar el ratón 
+}
+
+/* .nav-link.active {
+    background-color: #91d2e4;
+} */
