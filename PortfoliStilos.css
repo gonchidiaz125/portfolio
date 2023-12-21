@@ -78,6 +78,32 @@ section {
   width: 100px;
 }
 
+/* ESTILO CURSOS---------------------------------------------------------------------------------------------------------------*/
+.contenedor-cursos{
+  display: flex;
+  border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
+  padding-top: 10px;
+}
+
+.columna-cursos-detalle {
+  /* flex: 100; Ocupa todo el espacio disponible */
+  padding: 10px; /* Añade un espacio alrededor del contenido */
+ 
+}
+
+.columna-cursos-imagen {
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 150px;
+  padding-bottom: 30px;
+}
+
+.imagen-cursos{
+  height: auto;
+  width: 100px;
+}
+
+
 
 
 
