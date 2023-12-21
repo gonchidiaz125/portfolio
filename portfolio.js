@@ -39,3 +39,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+
+// const mycarouselelement = document.queryselector('#carouselexample')
+
+//  const carousel = new bootstrap.carousel(mycarouselelement, {
+//    interval: 2000,
+//    touch: false
+//  })

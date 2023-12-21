@@ -6,10 +6,13 @@ body {
   padding-top: 56px; /* Ajuste para el Navbar fijo */
 }
 
+/* Altura de las secciones para simular contenido */
+/*
 section {
-  height: 500px; /* Altura de las secciones para simular contenido */
+  height: 500px; 
   
 }
+*/
 
 /* ESTILO BARRA DE SECCIONES--------------------------------------------------------------------------------------------------------*/
 .nav-item:hover {    
@@ -104,6 +107,7 @@ section {
 }
 
 /* ESTILO secciones---------------------------------------------------------------------------------------------------------------*/
+/*
 .custom-section-ejemplo {
   margin-bottom: 1600px
 }
@@ -113,6 +117,7 @@ section {
 .custom-section{
   margin-bottom: 1600px
 }
+*/
 
 
 
