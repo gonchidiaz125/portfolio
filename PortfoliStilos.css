@@ -48,7 +48,16 @@ section {
 }
 
 .experiencia-puesto{
-  font-size: x-large;
+  font-size: large;
+  font-weight: bold;
+}
+
+.experiencia-periodo{
+color: rgb(110, 103, 103);
+}
+
+.experiencia-ubicacion{
+color: rgb(110, 103, 103);
 }
 
 .imagen-experiencia{
