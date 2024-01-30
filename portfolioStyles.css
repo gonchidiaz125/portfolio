@@ -107,12 +107,54 @@ color: rgb(110, 103, 103);
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   width: 150px;
-  padding-bottom: 30px;
+  padding-bottom: 3%;
 }
 
 .imagen-cursos{
   height: auto;
   width: 100px;
+}
+
+/*ESTILO DE SKILL*/
+
+.logos{
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 7%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  
+}
+
+.backendlogos{
+  /*padding-left:*/ 
+}
+
+.logoSqlServer{
+  margin-left: 2%;
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 7%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.logoJquery{
+  margin-left: -1%;
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 9%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.logobootstrap{
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 9%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+
 }
 
 /* ESTILO secciones---------------------------------------------------------------------------------------------------------------*/
