@@ -38,3 +38,31 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   });
+
+//-----------------------------------------------------------------------------------------------------------------------
+
+//funcion para desplegar un texto completo 
+function mostrarMas() {
+  var textoInicial = document.getElementById('textoInicial');
+  var textoCompletoOculto = document.getElementById('textoCompletoOculto');
+  var verMas = document.getElementById('verMas');
+
+  if (textoInicial.style.display !== 'none') {
+      // Mostrar texto completo y "Ver menos"
+      textoInicial.style.display = 'none';
+      textoCompletoOculto.style.display = 'inline';
+      verMas.innerHTML = ' Ver menos';
+  } else {
+      // Mostrar solo el fragmento inicial y "Ver más"
+      textoInicial.style.display = 'inline';
+      textoCompletoOculto.style.display = 'none';
+      verMas.innerHTML = ' Ver más...';
+  }
+}
+
+//-----------------------------------------------------------------------------------------------------------------------
+//Funcion para redirigir a la pagina de la imagen mostrada en el carrusel 
+function redirigir() {
+  window.open("https://www.w3schools.com/", "_blank");
+  
+}

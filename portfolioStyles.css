@@ -157,6 +157,31 @@ color: rgb(110, 103, 103);
 
 }
 
+/*ESTILO DE SECCION DE EJEMPLOS------------------------------------------------------------------------------------------------*/
+.logosCards{
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 20%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+
+}
+#textoCompletoOculto {
+  display: none;
+  cursor: pointer;
+}
+
+#verMas {
+  color: blue;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
 /* ESTILO secciones---------------------------------------------------------------------------------------------------------------*/
 /*
 .custom-section-ejemplo {
