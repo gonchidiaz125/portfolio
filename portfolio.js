@@ -62,7 +62,7 @@ function mostrarMas() {
 
 //-----------------------------------------------------------------------------------------------------------------------
 //Funcion para redirigir a la pagina de la imagen mostrada en el carrusel 
-function redirigir() {
-  window.open("https://www.w3schools.com/", "_blank");
-  
+function redirigir(element) {
+  var url = $(element).find('a').attr('href');
+  window.open(url, '_blank');
 }
