@@ -17,11 +17,12 @@
 
 
     <title>Portfolio Gonchi</title>
+    <link rel="icon" href="imagenes/gd.png" type="image/x-icon">
   </head>
  <body>
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light" class="navbar navbar-expand-md navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Junior</a>
+            <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>        
@@ -42,7 +43,7 @@
                   <a class="nav-link scroll" href="#ejemplos" >Mis ejemplos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link scroll" href="#sitiosConsulta">Sitios de consulta</a>
+                  <a class="nav-link scroll" href="#sitiosConsulta">Sitios de interes</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link scroll" href="#contacto">Contacto</a>
@@ -432,8 +433,7 @@
                           
                           <img src="./imagenes/html-5.png" class="logosCards" alt="logohtml5">
                           <img src="./imagenes/css-3.png" class="logosCards" alt="logocss">
-                          <img src="./imagenes/JS.png" class="logosCards" alt="logoJS">
-                          <img src="./imagenes/Csharp.png" class="logosCards" alt="logoC#">
+                          <img src="./imagenes/JS.png" class="logosCards" alt="logoJS"> 
                           <br>
                           <a href="#" class="btn btn-primary" onclick="redirigirHaciaEjemplo(event)">Ir a ejemplo</a>
                           <a href="#" class="btn btn-primary">ver codigo</a>
@@ -441,15 +441,46 @@
                   </div>
               </div>  
               <div class="col-md-3">
-                  <div class="card" style="width: 16rem;">
-                    <img src="./imagenes/logotipo-de-github.png" class="card-img-movistar" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Repositorio de GitHub</h5>
-                          <p class="card-text"></p>
-                          <a href="#" class="btn btn-primary">Ir a pagina</a>
-                        </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="./imagenes/portfolio.png" class="imagenPassword" alt="imagenvalidadorDePassword">
+                    <div class="card-body">
+                        <h5 class="card-title">Repositorio de portfolio</h5>
+                        <div class="contenido">
+                          <p id="textoCompleto">
+                              <span id="textoInicial">Formulario para cambio de contraseña, se deben cumplir todas las reglas para poder asegurar una contraseña segura.</span>
+                          </p>
+                      </div>
+                        
+                      <img src="./imagenes/html-5.png" class="logosCards" alt="logohtml5">
+                      <img src="./imagenes/css-3.png" class="logosCards" alt="logocss">
+                      <img src="./imagenes/JS.png" class="logosCards" alt="logoJS"> 
+                        <br>
+                        <!-- <a href="#" class="btn btn-primary" onclick="redirigirHaciaEjemplo(event)">Ir a ejemplo</a>
+                        <a href="#" class="btn btn-primary">ver codigo</a> -->
+                    </div>
+                </div>
+            </div> 
+            <div class="col-md-3">
+              <div class="card" style="width: 16rem;">
+                  <img src="./imagenes/visual-basico.png" class="imagenbackend" alt="imagenvalidadorDePassword">
+                  <div class="card-body">
+                      <h5 class="card-title">Repositorio de backend</h5>
+                      <div class="contenido">
+                        <p id="textoCompleto">
+                            <span id="textoInicial">Formulario para cambio de contraseña, se deben cumplir todas las reglas para poder asegurar una contraseña segura.</span>
+                        </p>
+                    </div>
+                      
+                      <!-- <img src="./imagenes/" class="logosCards" alt="logohtml5">
+                      <img src="./imagenes/css-3.png" class="logosCards" alt="logocss">-->
+                      <img src="./imagenes/visual-basico.png" class="logosCards" alt="visualStudio"> 
+                      <img src="./imagenes/Csharp.png" class="logosCards" alt="logoC#">
+                      <br>
+                      <!-- <a href="#" class="btn btn-primary" onclick="redirigirHaciaEjemplo(event)">Ir a ejemplo</a>
+                      <a href="#" class="btn btn-primary">ver codigo</a> -->
                   </div>
               </div>
+          </div>
             </div>    
           </section> 
 
@@ -520,21 +551,21 @@
           <br>
           <br>
           
-          <section class="custom-section" id="contacto">
+          <section class="seccionContacto" id="contacto">
             <div class="container mt-5">
               <div class="row">
                 <!-- Sección de información -->
                 <div class="col-md-6">
-                  <h2>Contactanos</h2>
+                  <h2><b>Contacto</b></h2>
                   
                   <ul>
-                    <li>Gmail: gonchi.diaz125@gmail.com</li>
-                    <li>Teléfono: +54 - 03525 - 15537377</li>
-                    <li>linkedin: https://www.linkedin.com/in/gonzalo-andres-diaz/</li>
+                    <li><b>Email: <a href="mailto:gonchi.diaz125@gmail.com">gonchi.diaz125@gmail.com</a></b></li>
+                    <li><b>Teléfono: +549-3525-15537377</b></li>
+                    <li><b>Linkedin: <a href="https://www.linkedin.com/in/gonzalo-andres-diaz/"target="_blank"> https://www.linkedin.com/in/gonzalo-andres-diaz/</a></b></li>
                   </ul>
               </div>
-              <div class="col-md-6">
-                <h2>Contacto</h2>
+              <!-- <div class="col-md-6">
+                <h2>Enviame tu consulta</h2>
                   <form>
                     <div class="mb-3">
                       <label for="nombre" class="form-label">Nombre:</label>
@@ -551,7 +582,7 @@
                       <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
                   </form>
                 
-              </div>
+              </div> -->
           </section>
           <br>
           <br>

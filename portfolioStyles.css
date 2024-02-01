@@ -173,6 +173,14 @@ color: rgb(110, 103, 103);
   color: blue;
   cursor: pointer;
 }
+
+.imagenbackend {
+  max-width: 76%;
+  padding-left: 20%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
 /*ESTILO DE CARRUSEL-----------------------------------------------------------------------------------------------------------*/
 #carouselwithIndicators {
   width: 100%; /* Ajusta el ancho del carrusel según tus necesidades */
@@ -192,40 +200,7 @@ color: rgb(110, 103, 103);
 
 
 
-/* ESTILO secciones---------------------------------------------------------------------------------------------------------------*/
-/*
-.custom-section-ejemplo {
-  margin-bottom: 1600px
+/* ESTILO SECCION CONTACTO---------------------------------------------------------------------------------------------------------------*/
+.seccionContacto {
+  background-color: #ccc;
 }
-.custom-section {
-  margin-bottom: 1600px
-}
-.custom-section{
-  margin-bottom: 1600px
-}
-*/
-
-
-
-
-
-
-/*
-.nav-link.active:hover {
-    color: #fff;  
-}
-*/
-
-/*.navbar-nav .nav-dropdown:hover {
-  color: #91d2e4; /* Cambiar el color al pasar el ratón sobre el enlace 
-}/*
-
-.navbar-nav .nav-dropdown-item.active,
-.navbar-nav .nav-dropdown.active:hover {
-  color: #fff; /* Cambiar el color del enlace activo y al pasar el ratón 
-  background-color: #91d2e4; /* Cambiar el color de fondo del enlace activo y al pasar el ratón 
-}
-
-/* .nav-link.active {
-    background-color: #91d2e4;
-} */
