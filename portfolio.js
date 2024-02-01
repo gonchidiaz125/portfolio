@@ -69,25 +69,18 @@ function redirigir(element) {
 
 
 function redirigirHaciaEjemplo(event) {
+  // Prevengo para evitar que la página actual se vuelva a carga y se muestre desde el inicio (lo que mueve fuera del area visual el link elegido)
   event.preventDefault();
 
-    // Obtener la URL completa de la página actual
-  var urlCompleta = window.location.href;
+  let isLocalHost = window.location.href.includes("127.0.0.1")
 
-  // Obtener la URL sin la parte de la cadena de consulta
-  var urlSinQuery = window.location.origin + window.location.pathname;
+  let newUrl;
 
-  // Obtener solo la cadena de consulta (parámetros)
-  var queryString = window.location.search;
-
-  // Mostrar los resultados en la consola (puedes eliminar esto en producción)
-  console.log("URL completa:", urlCompleta);
-  console.log("URL sin la cadena de consulta:", urlSinQuery);
-  console.log("Cadena de consulta:", queryString);
-
-  var nuevaURL = "http://127.0.0.1:5500/index.html";
-
-  // Redirige a la nueva URL
-  // window.location.href = nuevaURL;
-  window.open(nuevaURL, '_blank');
+  if (isLocalHost) {
+    newUrl ="http://127.0.0.1:5500/index.html";
+  } else {
+    newUrl = "https://lemon-plant-09c183a0f.4.azurestaticapps.net/index.html";
+  }
+  
+  window.open(newUrl, '_blank');
 }
