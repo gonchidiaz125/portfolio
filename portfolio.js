@@ -43,9 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //funcion para desplegar un texto completo 
 function mostrarMas() {
-  var textoInicial = document.getElementById('textoInicial');
-  var textoCompletoOculto = document.getElementById('textoCompletoOculto');
-  var verMas = document.getElementById('verMas');
+  let textoInicial = document.getElementById('textoInicial');
+  let textoCompletoOculto = document.getElementById('textoCompletoOculto');
+  let verMas = document.getElementById('verMas');
 
   if (textoInicial.style.display !== 'none') {
       // Mostrar texto completo y "Ver menos"
@@ -63,6 +63,6 @@ function mostrarMas() {
 //-----------------------------------------------------------------------------------------------------------------------
 //Funcion para redirigir a la pagina de la imagen mostrada en el carrusel 
 function redirigir(element) {
-  var url = $(element).find('a').attr('href');
+  let url = $(element).find('a').attr('href');
   window.open(url, '_blank');
 }
