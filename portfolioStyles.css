@@ -6,13 +6,9 @@ body {
   padding-top: 56px; /* Ajuste para el Navbar fijo */
 }
 
-/* Altura de las secciones para simular contenido */
-/*
-section {
-  height: 500px; 
-  
+p {
+  margin-bottom: 0rem;
 }
-*/
 
 /* ESTILO BARRA DE SECCIONES--------------------------------------------------------------------------------------------------------*/
 .nav-item:hover {    
@@ -32,7 +28,8 @@ section {
 .contenedor-experiencia {
   display: flex;
   border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
-  padding-top: 10px;
+  padding-top: 3%;
+  padding-bottom: 0%;
 }
 
 .columna-experiencia-detalle {
@@ -45,10 +42,20 @@ section {
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   width: 150px;
+  padding-right: 10%;
 }
 
 .experiencia-puesto{
-  font-size: x-large;
+  font-size: large;
+  font-weight: bold;
+}
+
+.experiencia-periodo{
+color: rgb(110, 103, 103);
+}
+
+.experiencia-ubicacion{
+color: rgb(110, 103, 103);
 }
 
 .imagen-experiencia{
@@ -98,13 +105,92 @@ section {
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   width: 150px;
-  padding-bottom: 30px;
+  padding-bottom: 3%;
 }
 
 .imagen-cursos{
   height: auto;
   width: 100px;
 }
+
+/*ESTILO DE SKILL*/
+
+.logos{
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 7%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  
+}
+
+.backendlogos{
+  /*padding-left:*/ 
+}
+
+.logoSqlServer{
+  margin-left: 2%;
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 7%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.logoJquery{
+  margin-left: -1%;
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 9%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.logobootstrap{
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 9%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+
+}
+
+/*ESTILO DE SECCION DE EJEMPLOS------------------------------------------------------------------------------------------------*/
+.logosCards{
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 20%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+
+}
+#textoCompletoOculto {
+  display: none;
+  cursor: pointer;
+}
+
+#verMas {
+  color: blue;
+  cursor: pointer;
+}
+/*ESTILO DE CARRUSEL-----------------------------------------------------------------------------------------------------------*/
+#carouselwithIndicators {
+  width: 100%; /* Ajusta el ancho del carrusel según tus necesidades */
+  margin: 0 auto; /* Centra el carrusel horizontalmente en la página */
+}
+
+.carousel-inner {
+  height: 300%; /* Ajusta la altura del carrusel según tus necesidades */
+}
+
+.carousel-item img {
+  object-fit: cover; /* Ajusta la imagen para que cubra el espacio asignado */
+  width: 50%; /* Haz que todas las imágenes ocupen el ancho completo del contenedor */
+  height: 100%; /* Asegura que todas las imágenes tengan la misma altura */
+}
+
+
+
 
 /* ESTILO secciones---------------------------------------------------------------------------------------------------------------*/
 /*
