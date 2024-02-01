@@ -66,3 +66,28 @@ function redirigir(element) {
   let url = $(element).find('a').attr('href');
   window.open(url, '_blank');
 }
+
+
+function redirigirHaciaEjemplo(event) {
+  event.preventDefault();
+
+    // Obtener la URL completa de la página actual
+  var urlCompleta = window.location.href;
+
+  // Obtener la URL sin la parte de la cadena de consulta
+  var urlSinQuery = window.location.origin + window.location.pathname;
+
+  // Obtener solo la cadena de consulta (parámetros)
+  var queryString = window.location.search;
+
+  // Mostrar los resultados en la consola (puedes eliminar esto en producción)
+  console.log("URL completa:", urlCompleta);
+  console.log("URL sin la cadena de consulta:", urlSinQuery);
+  console.log("Cadena de consulta:", queryString);
+
+  var nuevaURL = "http://127.0.0.1:5500/index.html";
+
+  // Redirige a la nueva URL
+  // window.location.href = nuevaURL;
+  window.open(nuevaURL, '_blank');
+}
