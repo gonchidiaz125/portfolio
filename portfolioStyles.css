@@ -1,14 +1,29 @@
+
 body{
     font-family: 'Nunito Sans', sans-serif;
 }
 
 body {
-  padding-top: 56px; /* Ajuste para el Navbar fijo */
+  padding-top: 5%; /* Ajuste para el Navbar fijo */
 }
 
 p {
   margin-bottom: 0rem;
 }
+h3 {
+  text-align: center;
+}
+/*ESTILO BANDERA NAV BAR------------------------------------------------------------------------------------------------------------*/
+.bendera {
+  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  width: 5%;
+  padding-right: 1%;
+}
+
+
+
+
 
 /* ESTILO BARRA DE SECCIONES--------------------------------------------------------------------------------------------------------*/
 .nav-item:hover {    
@@ -114,7 +129,9 @@ color: rgb(110, 103, 103);
 }
 
 /*ESTILO DE SKILL*/
-
+.section-skill {
+  text-align: center;
+}
 .logos{
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
@@ -122,10 +139,6 @@ color: rgb(110, 103, 103);
   padding-bottom: 3%;
   padding-top: 3%;
   
-}
-
-.backendlogos{
-  /*padding-left:*/ 
 }
 
 .logoSqlServer{
@@ -156,13 +169,17 @@ color: rgb(110, 103, 103);
 }
 
 /*ESTILO DE SECCION DE EJEMPLOS------------------------------------------------------------------------------------------------*/
-.logosCards{
+
+.section-ejemplo {
+  text-align: center;
+}
+.col-md-3 {
+  text-align: center;
+}
+.logosCards {
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   width: 20%;
-  padding-bottom: 3%;
-  padding-top: 3%;
-
 }
 #textoCompletoOculto {
   display: none;
@@ -174,7 +191,7 @@ color: rgb(110, 103, 103);
   cursor: pointer;
 }
 
-.imagenbackend {
+.imagenBackend {
   max-width: 76%;
   padding-left: 20%;
   padding-top: 10%;
@@ -196,11 +213,12 @@ color: rgb(110, 103, 103);
   width: 50%; /* Haz que todas las imágenes ocupen el ancho completo del contenedor */
   height: 100%; /* Asegura que todas las imágenes tengan la misma altura */
 }
-
-
-
+.custom-section-sitiosConsulta {
+  text-align: center;
+}
 
 /* ESTILO SECCION CONTACTO---------------------------------------------------------------------------------------------------------------*/
 .seccionContacto {
   background-color: #ccc;
 }
+
