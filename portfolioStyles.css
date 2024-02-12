@@ -1,42 +1,78 @@
 
-body{
-    font-family: 'Nunito Sans', sans-serif;
-}
-
 body {
-  padding-top: 5%; /* Ajuste para el Navbar fijo */
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 3%; /* Ajuste para el Navbar fijo */       
+    background-color:#2d6a4fc4;;
+}
+@media screen and (max-width: 1500px) {
+  body {
+    padding-top: 14%; /* Ajuste para el Navbar fijo */ 
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;           
+  } 
+}
+.container {
+  background-color: #f8f8f8;
+  border-width: 10cm;
 }
 
-p {
-  margin-bottom: 0rem;
-}
 h3 {
   text-align: center;
+  font-weight:bold;
 }
 /*ESTILO BANDERA NAV BAR------------------------------------------------------------------------------------------------------------*/
 .bendera {
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
-  width: 5%;
+  width: 2.5rem;
   padding-right: 1%;
 }
+@media screen and (max-width:500px) {
+ #CordobaArgentina{
+  display: none;
+ }
+}
 
-
-
-
-
-/* ESTILO BARRA DE SECCIONES--------------------------------------------------------------------------------------------------------*/
 .nav-item:hover {    
+    background-color: #2d6a4fbe;
+    color: black;
+}
+.navbar {
+  background-color:#2d6a4fbe;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.dropdown-menu{
+  background-color: #2d6a4fbe;
   
-    background-color: #91d2e4; /* Cambiar el color de fondo del enlace activo y al pasar el ratón  */
+  
+}
+.dropdown-item:hover {
+  background-color: #2d6a4fbe;
+  color: white;
+}
+.dropdown-item {
+  color: #f8f8f8;
+}
+/* ESTILO DE INICIO--------------------------------------------------------------------------------------------------------------*/
+.imagenDePerfil {
+  width: 25%;
+  border-radius: 50%;
+  justify-self: center;
+  position:relative;
+  float: left;
 }
 
-.nav-link.active {
-    background-color: #91d2e4; /* Cambiar el color de fondo del enlace activo y al pasar el ratón  */
+.contenedor {
+  display: flex;
+  align-items: center; 
 }
 
-.navbar-nav .nav-item:hover .nav-link {
-    color: #fff;  
+#nombre {
+  z-index: 10;
+  color: #0f0f0f;
+  padding-left: 3%;
 }
 
 /* ESTILO EXPERIENCIAS---------------------------------------------------------------------------------------------------------------*/
@@ -198,6 +234,7 @@ color: rgb(110, 103, 103);
   padding-bottom: 10%;
 }
 
+
 /*ESTILO DE CARRUSEL-----------------------------------------------------------------------------------------------------------*/
 #carouselwithIndicators {
   width: 100%; /* Ajusta el ancho del carrusel según tus necesidades */
@@ -218,7 +255,48 @@ color: rgb(110, 103, 103);
 }
 
 /* ESTILO SECCION CONTACTO---------------------------------------------------------------------------------------------------------------*/
-.seccionContacto {
-  background-color: #ccc;
+
+.infoContacto {
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20%;
 }
+.infoContacto :hover {
+    
+}
+.imagenGmail { 
+  max-width: 100%; 
+  width: 30%;
+  padding-bottom: 1%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10%;
+  border-color: #0f0f0f;
+  border-style:groove;
+}
+.imagenWhatsapp {
+  max-width: 100%; 
+  width: 30%;
+  padding-bottom: 1%;
+  padding-top: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10%;
+  border-color: #0f0f0f;
+  border-style:groove;
+}
+.imagenLinkedin {
+  max-width: 100%; 
+  width: 30%;
+  padding-bottom: 1%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10%;
+  border-color: #0f0f0f;
+  border-style:groove;
+} 
 
