@@ -76,6 +76,14 @@ h3 {
 }
 
 /* ESTILO EXPERIENCIAS---------------------------------------------------------------------------------------------------------------*/
+ @media screen and (max-width:500px) {
+  .contenedor-experiencia{
+   text-align: left;
+
+  }
+ } 
+
+
 .contenedor-experiencia {
   display: flex;
   border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
@@ -205,13 +213,19 @@ color: rgb(110, 103, 103);
 }
 
 /*ESTILO DE SECCION DE EJEMPLOS------------------------------------------------------------------------------------------------*/
+/* @media screen and (max-width:500px) {
+  #CordobaArgentina{
+   display: none;
+  }
+ } */
+ @media screen and (max-width:1270px) {
+  .col-md-3 {
+    width: 18rem;
 
-.section-ejemplo {
-  text-align: center;
-}
-.col-md-3 {
-  text-align: center;
-}
+
+  
+}}
+
 .logosCards {
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
