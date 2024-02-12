@@ -15,6 +15,7 @@ body {
 .container {
   background-color: #f8f8f8;
 }
+/*FORMATO TITULO--------------------------------------------------------------------------------------------------------------------------*/
 h1{
   position: center;
   top: 34%;
@@ -85,11 +86,13 @@ h1 span:nth-child(11) {
 h1 span:nth-child(12) {
   animation-delay: 6s;
 }
-
-
-
-
-
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size:1rem;  
+    position: center;  
+  } 
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 h3 {
   text-align: center;
