@@ -254,23 +254,54 @@ color: rgb(110, 103, 103);
   text-align: center;
 }
 
-/* ESTILO SECCION CONTACTO---------------------------------------------------------------------------------------------------------------*/
+.galeriaPrueba {
+  text-align: center;
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+}
 
+.galeriaPrueba img {
+  width:  30%;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+
+}
+
+.galeriaPrueba img:hover {
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+  width: 50%;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+/* ESTILO SECCION CONTACTO---------------------------------------------------------------------------------------------------------------*/
 .infoContacto {
+  margin-bottom: auto;
+  margin-top: auto;
   text-align: center;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 20%;
+  padding-bottom: 15%;
+
 }
 .infoContacto :hover {
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+  width: 30%;
     
 }
 .imagenGmail { 
   max-width: 100%; 
-  width: 30%;
+  width: 15%;
   padding-bottom: 1%;
-  padding-top: 2%;
+  padding-top: 1%;
   padding-left: 2%;
   padding-right: 2%;
   border-radius: 10%;
@@ -279,9 +310,9 @@ color: rgb(110, 103, 103);
 }
 .imagenWhatsapp {
   max-width: 100%; 
-  width: 30%;
+  width: 15%;
   padding-bottom: 1%;
-  padding-top: 1.5%;
+  padding-top: 1%;
   padding-left: 2%;
   padding-right: 2%;
   border-radius: 10%;
@@ -290,9 +321,9 @@ color: rgb(110, 103, 103);
 }
 .imagenLinkedin {
   max-width: 100%; 
-  width: 30%;
+  width: 15%;
   padding-bottom: 1%;
-  padding-top: 2%;
+  padding-top: 1%;
   padding-left: 2%;
   padding-right: 2%;
   border-radius: 10%;
