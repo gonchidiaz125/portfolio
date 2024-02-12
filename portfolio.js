@@ -84,3 +84,4 @@ function redirigirHaciaEjemplo(event) {
   
   window.open(newUrl, '_blank');
 }
+

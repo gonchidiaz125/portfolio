@@ -14,8 +14,82 @@ body {
 }
 .container {
   background-color: #f8f8f8;
-  border-width: 10cm;
 }
+h1{
+  position: center;
+  top: 34%;
+  left: 22%;
+  color:#ffffff;
+  font-size: 5rem;
+  letter-spacing: 0.1rem;
+}
+h1 span {
+  opacity: 0;
+  display: inline-block;
+  animation: anime 1s linear forwards;
+}
+@keyframes anime {
+  0%{
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100%{
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+h1 span:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+h1 span:nth-child(2) {
+  animation-delay: 1s;
+}
+
+h1 span:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+h1 span:nth-child(4) {
+  animation-delay: 2s;
+}
+
+h1 span:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+h1 span:nth-child(6) {
+  animation-delay: 3s;
+}
+
+h1 span:nth-child(7) {
+  animation-delay: 3.5s;
+}
+
+h1 span:nth-child(8) {
+  animation-delay: 4s;
+}
+
+h1 span:nth-child(9) {
+  animation-delay: 4.5s;
+}
+
+h1 span:nth-child(10) {
+  animation-delay: 5s;
+}
+
+h1 span:nth-child(11) {
+  animation-delay: 5.5s;
+}
+
+h1 span:nth-child(12) {
+  animation-delay: 6s;
+}
+
+
+
+
+
 
 h3 {
   text-align: center;
@@ -24,6 +98,11 @@ h3 {
 .titulos {
   padding-top: 10%;
 }
+@media screen and (max-width:500px) {
+  .titulos{
+   padding-top: 22%;
+  }
+ }
 /*ESTILO BANDERA NAV BAR------------------------------------------------------------------------------------------------------------*/
 .bendera {
   height: auto; /* Mantiene la proporción de la imagen */
