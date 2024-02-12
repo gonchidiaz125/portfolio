@@ -21,6 +21,9 @@ h3 {
   text-align: center;
   font-weight:bold;
 }
+.titulos {
+  padding-top: 10%;
+}
 /*ESTILO BANDERA NAV BAR------------------------------------------------------------------------------------------------------------*/
 .bendera {
   height: auto; /* Mantiene la proporción de la imagen */
@@ -79,7 +82,6 @@ h3 {
  @media screen and (max-width:500px) {
   .contenedor-experiencia{
    text-align: left;
-
   }
  } 
 
@@ -88,7 +90,7 @@ h3 {
   display: flex;
   border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
   padding-top: 3%;
-  padding-bottom: 0%;
+  padding-bottom: 1%;
 }
 
 .columna-experiencia-detalle {
@@ -304,15 +306,19 @@ color: rgb(110, 103, 103);
   padding-bottom: 15%;
 
 }
-.infoContacto :hover {
+
+.infoContacto img:hover {
   margin-top: auto;
   margin-bottom: auto;
-  cursor: pointer;
-  width: 30%;
-    
-}
-.imagenGmail { 
-  max-width: 100%; 
+  /* cursor: pointer; */
+  width: 10%;
+  opacity: 1;
+  filter: contrast(120%);
+
+}   
+
+.imagenGmail {  
+  transition: .5s ease;
   width: 15%;
   padding-bottom: 1%;
   padding-top: 1%;
@@ -321,8 +327,10 @@ color: rgb(110, 103, 103);
   border-radius: 10%;
   border-color: #0f0f0f;
   border-style:groove;
+  
 }
 .imagenWhatsapp {
+  transition: .5s ease;
   max-width: 100%; 
   width: 15%;
   padding-bottom: 1%;
@@ -334,6 +342,7 @@ color: rgb(110, 103, 103);
   border-style:groove;
 }
 .imagenLinkedin {
+  transition: .5s ease;
   max-width: 100%; 
   width: 15%;
   padding-bottom: 1%;
