@@ -84,4 +84,8 @@ function redirigirHaciaEjemplo(event) {
   
   window.open(newUrl, '_blank');
 }
-
+module.exports = {
+  // Otras configuraciones...
+  extends: ['eslint:recommended', 'prettier'],
+  // ...
+};
