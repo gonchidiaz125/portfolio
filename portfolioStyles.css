@@ -266,14 +266,13 @@ color: rgb(110, 103, 103);
   width: 7%;
   padding-bottom: 3%;
   padding-top: 3%;
+  padding-left: 1%;
   
 }
 
-.logoSqlServer{
-  margin-left: 2%;
+.logosJs {
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-  width: 7%;
+  width: 8.5%;
   padding-bottom: 3%;
   padding-top: 3%;
 }
@@ -314,6 +313,12 @@ color: rgb(110, 103, 103);
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   width: 20%;
+  padding-left: 2%;
+}
+.logosCardsJs {
+  max-width: 100%;
+  height: auto; 
+  width: 24%;
 }
 #textoCompletoOculto {
   display: none;
