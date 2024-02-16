@@ -304,21 +304,23 @@ color: rgb(110, 103, 103);
  @media screen and (max-width:1270px) {
   .col-md-3 {
     width: 18rem;
-
-
-  
 }}
+.btn {
+  margin-top: 5%;
+}
 
 .logosCards {
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   width: 20%;
   padding-left: 2%;
+  margin-bottom: 2%;
 }
 .logosCardsJs {
   max-width: 100%;
   height: auto; 
-  width: 24%;
+  width: 21.5%;
+  margin-bottom: 2%;
 }
 #textoCompletoOculto {
   display: none;
@@ -326,6 +328,10 @@ color: rgb(110, 103, 103);
 }
 
 #verMas {
+  color: blue;
+  cursor: pointer;
+}
+#verMas1 {
   color: blue;
   cursor: pointer;
 }

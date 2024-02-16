@@ -59,6 +59,23 @@ function mostrarMas() {
       verMas.innerHTML = ' Ver más...';
   }
 }
+function mostrarMasOtroCards() {
+  let textoInicial = document.getElementById('textoInicial1');
+  let textoCompletoOculto = document.getElementById('textoCompletoOculto1');
+  let verMas = document.getElementById('verMas1');
+
+  if (textoInicial.style.display !== 'none') {
+      // Mostrar texto completo y "Ver menos"
+      textoInicial.style.display = 'none';
+      textoCompletoOculto.style.display = 'inline';
+      verMas.innerHTML = ' Ver menos';
+  } else {
+      // Mostrar solo el fragmento inicial y "Ver más"
+      textoInicial.style.display = 'inline';
+      textoCompletoOculto.style.display = 'none';
+      verMas.innerHTML = ' Ver más...';
+  }
+}
 
 //-----------------------------------------------------------------------------------------------------------------------
 //Funcion para redirigir a la pagina de la imagen mostrada en el carrusel 
@@ -84,8 +101,4 @@ function redirigirHaciaEjemplo(event) {
   
   window.open(newUrl, '_blank');
 }
-module.exports = {
-  // Otras configuraciones...
-  extends: ['eslint:recommended', 'prettier'],
-  // ...
-};
+
