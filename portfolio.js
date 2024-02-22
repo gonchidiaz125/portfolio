@@ -42,10 +42,10 @@ document.addEventListener('DOMContentLoaded', function() {
 //-----------------------------------------------------------------------------------------------------------------------
 
 //funcion para desplegar un texto completo 
-function mostrarMas() {
-  let textoInicial = document.getElementById('textoInicial');
-  let textoCompletoOculto = document.getElementById('textoCompletoOculto');
-  let verMas = document.getElementById('verMas');
+function mostrarMas(idTextoInicial, idtextoCompletoOculto, idVerMas) {
+  let textoInicial = document.getElementById(idTextoInicial);
+  let textoCompletoOculto = document.getElementById(idtextoCompletoOculto);
+  let verMas = document.getElementById(idVerMas);
 
   if (textoInicial.style.display !== 'none') {
       // Mostrar texto completo y "Ver menos"
