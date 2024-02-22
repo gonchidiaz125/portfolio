@@ -41,6 +41,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //-----------------------------------------------------------------------------------------------------------------------
 
+
+$(document).ready(function() {  
+  $(".navbar-nav li a").on('click', function(){
+    // Verifica si el enlace clicado no es el que tiene el submenú
+    if (!$(this).parent().hasClass("dropdown")) {
+      $(".navbar-collapse").collapse('hide');
+    }
+  });
+});
+
+
 //funcion para desplegar un texto completo 
 function mostrarMas(idTextoInicial, idtextoCompletoOculto, idVerMas) {
   let textoInicial = document.getElementById(idTextoInicial);

@@ -105,9 +105,12 @@ h3 {
   .titulos{
    padding-top: 22%;
   }
+  h3 {
+    font-size: medium;
+  }
  }
 /*ESTILO BANDERA NAV BAR------------------------------------------------------------------------------------------------------------*/
-.bendera {
+.bandera {
   height: auto; /* Mantiene la proporción de la imagen */
   width: 2.5rem;
   padding-right: 1%;
@@ -152,6 +155,10 @@ h3 {
 .contenedor {
   display: flex;
   align-items: center; 
+}
+.textoIntroduccion {
+  padding-left: 14%;
+  padding-right: 5%;
 }
 
 #nombre {
