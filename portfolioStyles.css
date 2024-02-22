@@ -359,9 +359,6 @@ color: rgb(110, 103, 103);
     width: 18rem;
     margin-bottom: 10%;
 }}
-.btn {
-  margin-top: 5%;
-}
 
 .logosCards {
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
@@ -393,7 +390,16 @@ color: rgb(110, 103, 103);
   padding-top: 10%;
   padding-bottom: 10%;
 }
-
+.imagenBoton {
+  width: 12%; /* Ancho de la imagen */
+  height: 12%; /* Altura de la imagen */
+  margin-left: 5%;
+}
+.btn {
+  margin-top: 5%;
+  /* max-width: 100%;
+  margin-right: 50%; */
+}
 
 /*ESTILO DE CARRUSEL-----------------------------------------------------------------------------------------------------------*/
 #carouselwithIndicators {
