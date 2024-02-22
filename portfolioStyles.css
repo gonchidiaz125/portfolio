@@ -160,14 +160,8 @@ h3 {
   padding-left: 3%;
 }
 
+
 /* ESTILO EXPERIENCIAS---------------------------------------------------------------------------------------------------------------*/
- @media screen and (max-width:500px) {
-  .contenedor-experiencia{
-   text-align: left;
-  }
- } 
-
-
 .contenedor-experiencia {
   display: flex;
   border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
@@ -205,6 +199,23 @@ color: rgb(110, 103, 103);
   height: auto;
   width: 100px;
 }
+
+@media screen and (max-width:500px) {
+  .contenedor-experiencia{
+   text-align: left;
+  }
+
+  .columna-experiencia-imagen {
+    padding-right: 2%;
+  }
+
+  .imagen-experiencia{
+    height: auto;
+    width: 70px;
+  }
+
+ } 
+
 
 /* ESTILO EDUCACION---------------------------------------------------------------------------------------------------------------*/
 .contenedor-educación{
@@ -260,39 +271,65 @@ color: rgb(110, 103, 103);
 .section-skill {
   text-align: center;
 }
+
+.tituloSkills h5 {
+  font-weight: bold;
+}
+
 .logos{
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
+  max-width: 100%; 
+  height: auto; 
   width: 7%;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   padding-top: 3%;
   padding-left: 1%;
-  padding: 0%;
 }
 
 .logosJs {
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  width: 8.5%;
+  margin-left: -1%;
+  max-width: 80%; 
+  height: auto; 
+  width: 8%;
   padding-bottom: 3%;
-  padding-top: 3%;
+  padding-top: 1%;
+  padding-left: 1%;
 }
 
 .logoJquery{
   margin-left: -1%;
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-  width: 9%;
+  max-width: 80%; 
+  height: auto; 
+  width: 7%;
   padding-bottom: 3%;
-  padding-top: 3%;
+  padding-top: 2%;
+  padding-left: 1%;
 }
 
-.logobootstrap{
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-  width: 9%;
-  padding-bottom: 3%;
-  padding-top: 3%;
-
+@media screen and (max-width:500px) {
+  .logos{
+    max-width: 110%; 
+    height: auto; 
+    width: 20%;
+    padding-bottom: 15%;
+    padding-top: 1%;
+    padding-left: 1%;
+  }
+  .logosJs {
+    max-width: 100%; 
+    height: auto; 
+    width: 21.5%;
+    padding-bottom: 15%;
+    padding-top: 1%;
+  }
+  
+  .logoJquery{
+    max-width: 100%; 
+    height: auto; 
+    width: 20%;
+    padding-bottom: 15%;
+    padding-top: 1%;
+  }
+  
 }
 
 /*ESTILO DE SECCION DE EJEMPLOS------------------------------------------------------------------------------------------------*/
@@ -323,16 +360,13 @@ color: rgb(110, 103, 103);
   width: 21.5%;
   margin-bottom: 2%;
 }
-#textoCompletoOculto {
+
+.textoCompletoOculto {
   display: none;
   cursor: pointer;
 }
 
-#verMas {
-  color: blue;
-  cursor: pointer;
-}
-#verMas1 {
+.verMas {
   color: blue;
   cursor: pointer;
 }
