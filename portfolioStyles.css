@@ -390,17 +390,12 @@ color: rgb(110, 103, 103);
   padding-top: 10%;
   padding-bottom: 10%;
 }
-.imagenBoton {
-  width: 12%; /* Ancho de la imagen */
-  height: 12%; /* Altura de la imagen */
-  margin-left: 5%;
+.imagencards {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-.btn {
-  margin-top: 5%;
-  /* max-width: 100%;
-  margin-right: 50%; */
-}
-
 /*ESTILO DE CARRUSEL-----------------------------------------------------------------------------------------------------------*/
 #carouselwithIndicators {
   width: 100%; /* Ajusta el ancho del carrusel según tus necesidades */
