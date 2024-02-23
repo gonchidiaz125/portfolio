@@ -169,6 +169,7 @@ h3 {
 
 
 /* ESTILO EXPERIENCIAS---------------------------------------------------------------------------------------------------------------*/
+
 .contenedor-experiencia {
   display: flex;
   border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
@@ -177,7 +178,8 @@ h3 {
 
 .columna-experiencia-detalle {
   /* flex: 100; Ocupa todo el espacio disponible */
-  padding-right: 7%; /* Añade un espacio alrededor del contenido */
+  padding-left: 12%;
+  padding-right: 7%;/* Añade un espacio alrededor del contenido */
  
 }
 
@@ -185,7 +187,7 @@ h3 {
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   width: 150px;
-  padding-right: 10%;
+  padding-left: 14%;
 }
 
 .experiencia-puesto{
@@ -229,7 +231,8 @@ color: rgb(110, 103, 103);
 .columna-educación-detalle {
   /* flex: 100; Ocupa todo el espacio disponible */
   padding: 10px; /* Añade un espacio alrededor del contenido */
- 
+  padding-left: 12%;
+  padding-right: 5%;
 }
 
 .columna-educación-imagen {
@@ -237,6 +240,7 @@ color: rgb(110, 103, 103);
   height: auto; /* Mantiene la proporción de la imagen */
   width: 150px;
   padding-bottom: 30px;
+  padding-left: 14%;
 }
 
 .imagen-educacion{
@@ -254,7 +258,8 @@ color: rgb(110, 103, 103);
 .columna-cursos-detalle {
   /* flex: 100; Ocupa todo el espacio disponible */
   padding: 10px; /* Añade un espacio alrededor del contenido */
- 
+  padding-left: 12%;
+  padding-right: 5%;
 }
 
 .columna-cursos-imagen {
@@ -262,6 +267,7 @@ color: rgb(110, 103, 103);
   height: auto; /* Mantiene la proporción de la imagen */
   width: 150px;
   padding-bottom: 3%;
+  padding-left: 14%;
 }
 
 .imagen-cursos{
