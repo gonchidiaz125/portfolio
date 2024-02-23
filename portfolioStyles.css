@@ -160,6 +160,12 @@ h3 {
   padding-left: 14%;
   padding-right: 5%;
 }
+@media screen and (max-width:500px) {
+  .textoIntroduccion {
+    padding-left: 2%;
+    padding-right: 1%;
+  }
+}
 
 #nombre {
   z-index: 10;
@@ -217,6 +223,19 @@ color: rgb(110, 103, 103);
     height: auto;
     width: 70px;
   }
+  .columna-experiencia-detalle {
+    /* flex: 100; Ocupa todo el espacio disponible */
+    padding-left: 1%;
+    padding-right: 1%;/* Añade un espacio alrededor del contenido */
+   
+  }
+  
+  .columna-experiencia-imagen {
+    max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    width: 40%;
+    padding-left: 1%;
+  }
 
  } 
 
@@ -247,6 +266,23 @@ color: rgb(110, 103, 103);
   height: auto;
   width: 100px;
 }
+@media screen and (max-width:500px) {
+  .columna-educación-detalle {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .columna-educación-imagen {
+    max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    width: 30%;
+    padding-left: 1%;
+  }
+  .imagen-educacion{
+    height: auto;
+    width: 70px;
+  }
+}
 
 /* ESTILO CURSOS---------------------------------------------------------------------------------------------------------------*/
 .contenedor-cursos{
@@ -274,8 +310,30 @@ color: rgb(110, 103, 103);
   height: auto;
   width: 100px;
 }
+@media screen and (max-width:500px) {
+  .columna-cursos-detalle {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .columna-cursos-imagen {
+    max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    width: 150px;
+    padding-bottom: 3%;
+    padding-left: 1%;
+  }
+  
+  .imagen-cursos{
+    height: auto;
+    width: 70px;
+  }
 
-/*ESTILO DE SKILL*/
+}
+
+
+
+/*ESTILO DE SKILL---------------------------------------------------------------------------------------------------------------*/
 .section-skill {
   text-align: center;
 }
