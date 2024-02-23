@@ -172,13 +172,12 @@ h3 {
 .contenedor-experiencia {
   display: flex;
   border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
-  padding-top: 3%;
-  padding-bottom: 1%;
+  padding-top: 3%; 
 }
 
 .columna-experiencia-detalle {
   /* flex: 100; Ocupa todo el espacio disponible */
-  padding: 10px; /* Añade un espacio alrededor del contenido */
+  padding-right: 7%; /* Añade un espacio alrededor del contenido */
  
 }
 
@@ -194,11 +193,7 @@ h3 {
   font-weight: bold;
 }
 
-.experiencia-periodo{
-color: rgb(110, 103, 103);
-}
-
-.experiencia-ubicacion{
+.experiencia-empresa{
 color: rgb(110, 103, 103);
 }
 
@@ -448,6 +443,7 @@ color: rgb(110, 103, 103);
 }
 
 /* ESTILO SECCION CONTACTO---------------------------------------------------------------------------------------------------------------*/
+ 
 .infoContacto {
   margin-bottom: auto;
   margin-top: auto;
@@ -468,6 +464,34 @@ color: rgb(110, 103, 103);
   filter: contrast(120%);
 
 }   
+
+/* Media query para pantallas más grandes (desktop) */
+@media only screen and (min-width: 600px) {
+  .contacto-desktop {
+      display: block; /* Muestra el div en pantallas más grandes */
+  }
+
+  .contacto-mobile {
+      display: none; /* Oculta el div para teléfonos */
+  }
+  
+}
+
+/* Media query para pantallas más pequeñas (teléfonos) */
+@media only screen and (max-width: 599px) {
+  .contacto-desktop {
+      display: none; /* Oculta el div para pantallas más pequeñas */
+  }
+
+  .contacto-mobile {
+      display: block; /* Muestra el div para teléfonos */
+  }
+
+  .infoContacto a {
+    display: inline-block;
+  } 
+}
+
 
 .imagenGmail {  
   transition: .5s ease;
@@ -506,3 +530,7 @@ color: rgb(110, 103, 103);
   border-style:groove;
 } 
 
+.iconosContacto {
+  margin: 10%;
+  position: relative;
+}
