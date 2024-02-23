@@ -399,6 +399,7 @@ color: rgb(110, 103, 103);
   margin-right: 10%;
 }
 /*ESTILO DE CARRUSEL-----------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width:1270px) {
 #carouselwithIndicators {
   width: 100%; /* Ajusta el ancho del carrusel según tus necesidades */
   margin: 0 auto; /* Centra el carrusel horizontalmente en la página */
@@ -440,6 +441,33 @@ color: rgb(110, 103, 103);
   width: 50%;
   opacity: 1;
   filter: contrast(120%);
+}
+}
+@media screen and (max-width:1270px) {
+  #carouselwithIndicators {
+    width: 100%; /* Ajusta el ancho del carrusel según tus necesidades */
+    margin: 0 auto; /* Centra el carrusel horizontalmente en la página */
+  }
+  .carousel-item img {
+    object-fit: cover; /* Ajusta la imagen para que cubra el espacio asignado */
+    width: 50%; /* Haz que todas las imágenes ocupen el ancho completo del contenedor */
+    height: 100%; /* Asegura que todas las imágenes tengan la misma altura */
+  }
+  .custom-section-sitiosConsulta {
+    text-align: center;
+  }
+  .galeriaPrueba {
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+  }
+  .galeriaPrueba img {
+    width:  60%;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: .5s ease; 
+  }
 }
 
 /* ESTILO SECCION CONTACTO---------------------------------------------------------------------------------------------------------------*/
