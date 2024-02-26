@@ -41,11 +41,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
 //-----------------------------------------------------------------------------------------------------------------------
 
+
+$(document).ready(function() {  
+  $(".navbar-nav li a").on('click', function(){
+    // Verifica si el enlace clicado no es el que tiene el submenú
+    if (!$(this).parent().hasClass("dropdown")) {
+      $(".navbar-collapse").collapse('hide');
+    }
+  });
+});
+
+
 //funcion para desplegar un texto completo 
-function mostrarMas() {
-  let textoInicial = document.getElementById('textoInicial');
-  let textoCompletoOculto = document.getElementById('textoCompletoOculto');
-  let verMas = document.getElementById('verMas');
+function mostrarMas(idTextoInicial, idtextoCompletoOculto, idVerMas) {
+  let textoInicial = document.getElementById(idTextoInicial);
+  let textoCompletoOculto = document.getElementById(idtextoCompletoOculto);
+  let verMas = document.getElementById(idVerMas);
 
   if (textoInicial.style.display !== 'none') {
       // Mostrar texto completo y "Ver menos"
