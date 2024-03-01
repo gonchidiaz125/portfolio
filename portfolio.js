@@ -49,6 +49,77 @@ $(document).ready(function() {
       $(".navbar-collapse").collapse('hide');
     }
   });
+
+  function crearExperiencias() {
+
+    var listaDeExperiencias = [];
+    var experiencia1 = {
+        puesto: "Técnico mecánico New Holland",
+        imagen: "./imagenes/griffaSA.jpeg",
+        empresa: "GRIFFA S.A.",
+        periodo: "Enero de 2021 - agosto de 2023 (2 años 8 meses)",
+        ubicacion: "Sinsacate, Córdoba, Argentina.",
+        descripcion: "Colocación de pilotos automáticos y sistemas de PLM (Agricultura de precisión) con su respectiva señal y calibración (unidad y apero), " +
+        "diagnóstico computarizado de unidades nuevas y usadas, actualizaciones de software, ecu de motor y transmisión, " +
+        "entregas técnicas (capacitaciones de uso de la unidad) a clientes al campo, servicios técnicos en campos de los clientes en cualquier punto del país.",
+    }
+
+    listaDeExperiencias.push(experiencia1);
+
+    var experiencia2 = {
+        puesto: "Vendedor",
+        imagen: "./imagenes/caroya_logo.jpeg",
+        empresa: "Caroya SA",
+        periodo: "Octubre de 2019 - enero de 2021 (1 año 4 meses) ",
+        ubicacion: "Jesús María, Córdoba, Argentina.",
+        descripcion: "Ventas por mayor y menor, Presupuestos, Cobranzas, Atención al público, Preparación y despacho de mercadería, Control de stock.",
+    }
+
+    listaDeExperiencias.push(experiencia2);
+
+    contenedorDeExperiencias = document.getElementById("contenedor-experiencias-laborales-nuevo");
+
+    for (var i=0; i<listaDeExperiencias.length; i++) {
+      var experienca = listaDeExperiencias[i];
+      
+      var divExperiencia = `
+              <div class="contenedor-experiencia">
+                  <div class="columna-experiencia-imagen">
+                    <img class="imagen-experiencia" src="${experienca.imagen}" alt="caroyaLogo">
+                  </div>
+                  <div class="columna-experiencia-detalle">
+                    <div class="experiencia-puesto">
+                      <p>${experienca.puesto}</p>
+                    </div>
+                    <div class="experiencia-empresa">
+                      <p>
+                        ${experienca.empresa}
+                      <br>
+                        ${experienca.periodo}}
+                      <br>
+                        ${experienca.ubicacion}
+                      </p>
+                    </div>
+                    <div class="experiencia-descripcionPuesto">
+                      <p> 
+                        ${experienca.descripcion}
+                      </p>
+                      <br>
+                    </div>
+                  </div>
+              </div>
+      `;
+      
+      const nuevoElemento = document.createElement('div');
+      nuevoElemento.innerHTML = divExperiencia;
+
+      contenedorDeExperiencias.appendChild(nuevoElemento);
+    }
+    
+  }
+
+  crearExperiencias();
+  
 });
 
 
