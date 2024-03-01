@@ -77,6 +77,41 @@ $(document).ready(function() {
 
     listaDeExperiencias.push(experiencia2);
 
+    
+    var experiencia3 = {
+      puesto: "Chofer",
+      imagen: "./imagenes/JMcarnes.png",
+      empresa: "Jesús María Carnes SRL ",
+      periodo: " Julio de 2015 - marzo de 2018 (2 años 9 meses) ",
+      ubicacion: "Jesús María, Córdoba, Argentina.",
+      descripcion: " Chofer de vehículo para reparto de sustancias alimenticias a las sucursales de dicha empresa y a clientes (carnes, pollos, gaseosas, alimentos no perecederos, etc.) Cobranza a cliente, Limpieza y organización de depósito.",
+  }
+
+  listaDeExperiencias.push(experiencia3);
+
+  
+  var experiencia4 = {
+    puesto: "Entrenador de acondicionamiento físico",
+    imagen: "./imagenes/cearpgym.jpg",
+    empresa: "Cearp GYM",
+    periodo: " Abril de 2011 - junio de 2015 (4 años 3 meses)",
+    ubicacion: "Jesús María, Córdoba, Argentina.",
+    descripcion: "Tareas a cargo: Encargado de gimnasio, atención al público, dictado de planes de entrenamiento y demostración técnica de cada ejercicio. Mantenimiento de orden y limpieza del establecimiento. Administración de cuotas de los inscriptos.",
+}
+
+  listaDeExperiencias.push(experiencia4);
+
+  var experiencia5 = {
+    puesto: "Camarero",
+    imagen: "./imagenes/laestacion.png",
+    empresa: "La Estación (Pizzeria-Lomiteria)",
+    periodo: "Octubre de 2019 - enero de 2021 (1 año 4 meses) ",
+    ubicacion: "Jesús María, Córdoba, Argentina.",
+    descripcion: "Temporadas de verano de 2012 - 2013 - 2014 - 2015 <br> Tareas a cargo: Atención al público. Mozo, y encargado de caja registradora.",
+  }
+
+  listaDeExperiencias.push(experiencia5);
+  
     contenedorDeExperiencias = document.getElementById("contenedor-experiencias-laborales-nuevo");
 
     for (var i=0; i<listaDeExperiencias.length; i++) {
