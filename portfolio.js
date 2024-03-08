@@ -78,8 +78,7 @@ function redirigir(element) {
   window.open(url, '_blank');
 }
 
-
-function redirigirHaciaEjemplo(event) {
+function redirigirHaciaEjemplo(event, urlEjemplo) {  
   // Prevengo para evitar que la página actual se vuelva a carga y se muestre desde el inicio (lo que mueve fuera del area visual el link elegido)
   event.preventDefault();
 
@@ -90,7 +89,7 @@ function redirigirHaciaEjemplo(event) {
   if (isLocalHost) {
     newUrl ="http://127.0.0.1:5500/index.html";
   } else {
-    newUrl = "https://lemon-plant-09c183a0f.4.azurestaticapps.net/index.html";
+    newUrl = urlEjemplo + "index.html";
   }
   
   window.open(newUrl, '_blank');
