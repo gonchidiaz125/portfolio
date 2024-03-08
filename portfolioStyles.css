@@ -40,55 +40,55 @@ h1 span {
   }
 }
 h1 span:nth-child(1) {
-  animation-delay: 0.5s;
+  animation-delay: 0.25s;
 }
 
 h1 span:nth-child(2) {
-  animation-delay: 1s;
+  animation-delay: 0.50s;
 }
 
 h1 span:nth-child(3) {
-  animation-delay: 1.5s;
+  animation-delay: 0.75s;
 }
 
 h1 span:nth-child(4) {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 h1 span:nth-child(5) {
-  animation-delay: 2.5s;
+  animation-delay: 1.25s;
 }
 
 h1 span:nth-child(6) {
-  animation-delay: 3s;
+  animation-delay: 1.5s;
 }
 
 h1 span:nth-child(7) {
-  animation-delay: 3.5s;
+  animation-delay: 1.75s;
 }
 
 h1 span:nth-child(8) {
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 h1 span:nth-child(9) {
-  animation-delay: 4.5s;
+  animation-delay: 2.25s;
 }
 
 h1 span:nth-child(10) {
-  animation-delay: 5s;
+  animation-delay: 2.50s;
 }
 
 h1 span:nth-child(11) {
-  animation-delay: 5.5s;
+  animation-delay: 2.75s;
 }
 
 h1 span:nth-child(12) {
-  animation-delay: 6s;
+  animation-delay: 3s;
 }
 @media screen and (max-width: 500px) {
   h1 {
-    font-size:1rem;  
+    font-size: 2rem;  
     position: center;  
   } 
 }
@@ -105,14 +105,17 @@ h3 {
   .titulos{
    padding-top: 22%;
   }
+  h3 {
+    font-size: medium;
+  }
  }
 /*ESTILO BANDERA NAV BAR------------------------------------------------------------------------------------------------------------*/
-.bendera {
+.bandera {
   height: auto; /* Mantiene la proporción de la imagen */
   width: 2.5rem;
   padding-right: 1%;
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:1000px) {
  #CordobaArgentina{
   display: none;
  }
@@ -153,6 +156,16 @@ h3 {
   display: flex;
   align-items: center; 
 }
+.textoIntroduccion {
+  padding-left: 14%;
+  padding-right: 5%;
+}
+@media screen and (max-width:500px) {
+  .textoIntroduccion {
+    padding-left: 2%;
+    padding-right: 1%;
+  }
+}
 
 #nombre {
   z-index: 10;
@@ -160,24 +173,19 @@ h3 {
   padding-left: 3%;
 }
 
-/* ESTILO EXPERIENCIAS---------------------------------------------------------------------------------------------------------------*/
- @media screen and (max-width:500px) {
-  .contenedor-experiencia{
-   text-align: left;
-  }
- } 
 
+/* ESTILO EXPERIENCIAS---------------------------------------------------------------------------------------------------------------*/
 
 .contenedor-experiencia {
   display: flex;
   border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
-  padding-top: 3%;
-  padding-bottom: 1%;
+  padding-top: 3%; 
 }
 
 .columna-experiencia-detalle {
   /* flex: 100; Ocupa todo el espacio disponible */
-  padding: 10px; /* Añade un espacio alrededor del contenido */
+  padding-left: 12%;
+  padding-right: 7%;/* Añade un espacio alrededor del contenido */
  
 }
 
@@ -185,7 +193,7 @@ h3 {
   max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   width: 150px;
-  padding-right: 10%;
+  padding-left: 14%;
 }
 
 .experiencia-puesto{
@@ -193,11 +201,7 @@ h3 {
   font-weight: bold;
 }
 
-.experiencia-periodo{
-color: rgb(110, 103, 103);
-}
-
-.experiencia-ubicacion{
+.experiencia-empresa{
 color: rgb(110, 103, 103);
 }
 
@@ -205,6 +209,36 @@ color: rgb(110, 103, 103);
   height: auto;
   width: 100px;
 }
+
+@media screen and (max-width:500px) {
+  .contenedor-experiencia{
+   text-align: left;
+  }
+
+  .columna-experiencia-imagen {
+    padding-right: 2%;
+  }
+
+  .imagen-experiencia{
+    height: auto;
+    width: 70px;
+  }
+  .columna-experiencia-detalle {
+    /* flex: 100; Ocupa todo el espacio disponible */
+    padding-left: 1%;
+    padding-right: 1%;/* Añade un espacio alrededor del contenido */
+   
+  }
+  
+  .columna-experiencia-imagen {
+    max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    width: 40%;
+    padding-left: 1%;
+  }
+
+ } 
+
 
 /* ESTILO EDUCACION---------------------------------------------------------------------------------------------------------------*/
 .contenedor-educación{
@@ -216,7 +250,8 @@ color: rgb(110, 103, 103);
 .columna-educación-detalle {
   /* flex: 100; Ocupa todo el espacio disponible */
   padding: 10px; /* Añade un espacio alrededor del contenido */
- 
+  padding-left: 12%;
+  padding-right: 5%;
 }
 
 .columna-educación-imagen {
@@ -224,11 +259,29 @@ color: rgb(110, 103, 103);
   height: auto; /* Mantiene la proporción de la imagen */
   width: 150px;
   padding-bottom: 30px;
+  padding-left: 14%;
 }
 
 .imagen-educacion{
   height: auto;
   width: 100px;
+}
+@media screen and (max-width:500px) {
+  .columna-educación-detalle {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .columna-educación-imagen {
+    max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    width: 30%;
+    padding-left: 1%;
+  }
+  .imagen-educacion{
+    height: auto;
+    width: 70px;
+  }
 }
 
 /* ESTILO CURSOS---------------------------------------------------------------------------------------------------------------*/
@@ -241,7 +294,8 @@ color: rgb(110, 103, 103);
 .columna-cursos-detalle {
   /* flex: 100; Ocupa todo el espacio disponible */
   padding: 10px; /* Añade un espacio alrededor del contenido */
- 
+  padding-left: 12%;
+  padding-right: 5%;
 }
 
 .columna-cursos-imagen {
@@ -249,50 +303,115 @@ color: rgb(110, 103, 103);
   height: auto; /* Mantiene la proporción de la imagen */
   width: 150px;
   padding-bottom: 3%;
+  padding-left: 14%;
 }
 
 .imagen-cursos{
   height: auto;
   width: 100px;
 }
+@media screen and (max-width:500px) {
+  .columna-cursos-detalle {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .columna-cursos-imagen {
+    max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    width: 150px;
+    padding-bottom: 3%;
+    padding-left: 1%;
+  }
+  
+  .imagen-cursos{
+    height: auto;
+    width: 70px;
+  }
 
-/*ESTILO DE SKILL*/
+}
+
+
+
+/*ESTILO DE SKILL---------------------------------------------------------------------------------------------------------------*/
 .section-skill {
   text-align: center;
 }
+
+.tituloSkills h5 {
+  font-weight: bold;
+}
+
 .logos{
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
+  max-width: 100%; 
+  height: auto; 
   width: 7%;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   padding-top: 3%;
   padding-left: 1%;
-  
 }
 
 .logosJs {
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  width: 8.5%;
+  margin-left: -1%;
+  max-width: 80%; 
+  height: auto; 
+  width: 8%;
   padding-bottom: 3%;
-  padding-top: 3%;
+  padding-top: 1%;
+  padding-left: 1%;
 }
 
 .logoJquery{
   margin-left: -1%;
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-  width: 9%;
+  max-width: 80%; 
+  height: auto; 
+  width: 7%;
   padding-bottom: 3%;
-  padding-top: 3%;
+  padding-top: 2%;
+  padding-left: 1%;
 }
+.logoSqlServer {
+    max-width: 100%; 
+    height: auto; 
+    width: 10%;
+    padding-bottom: 4%;
+    padding-top: 2%;
+    padding-left: 3%;
+  }
 
-.logobootstrap{
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
-  width: 9%;
-  padding-bottom: 3%;
-  padding-top: 3%;
-
+@media screen and (max-width:500px) {
+  .logos{
+    max-width: 110%; 
+    height: auto; 
+    width: 20%;
+    padding-bottom: 15%;
+    padding-top: 1%;
+    padding-left: 1%;
+  }
+  .logosJs {
+    max-width: 100%; 
+    height: auto; 
+    width: 21.5%;
+    padding-bottom: 15%;
+    padding-top: 1%;
+  }
+  
+  .logoJquery {
+    max-width: 100%; 
+    height: auto; 
+    width: 20%;
+    padding-bottom: 15%;
+    padding-top: 1%;
+  }
+  .logoSqlServer {
+    max-width: 100%; 
+    height: auto; 
+    width: 25%;
+    padding-bottom: 15%;
+    padding-top: 2%;
+    padding-left: 3%;
+  }
+  
 }
 
 /*ESTILO DE SECCION DE EJEMPLOS------------------------------------------------------------------------------------------------*/
@@ -302,11 +421,9 @@ color: rgb(110, 103, 103);
   }
  } */
  @media screen and (max-width:1270px) {
-  .col-md-3 {
+  .col-lg-3 {
     width: 18rem;
-
-
-  
+    margin-bottom: 10%;
 }}
 
 .logosCards {
@@ -314,18 +431,21 @@ color: rgb(110, 103, 103);
   height: auto; /* Mantiene la proporción de la imagen */
   width: 20%;
   padding-left: 2%;
+  margin-bottom: 2%;
 }
 .logosCardsJs {
   max-width: 100%;
   height: auto; 
-  width: 24%;
+  width: 21.5%;
+  margin-bottom: 2%;
 }
-#textoCompletoOculto {
+
+.textoCompletoOculto {
   display: none;
   cursor: pointer;
 }
 
-#verMas {
+.verMas {
   color: blue;
   cursor: pointer;
 }
@@ -336,9 +456,14 @@ color: rgb(110, 103, 103);
   padding-top: 10%;
   padding-bottom: 10%;
 }
-
-
+.imagencards {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 /*ESTILO DE CARRUSEL-----------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width:1270px) {
 #carouselwithIndicators {
   width: 100%; /* Ajusta el ancho del carrusel según tus necesidades */
   margin: 0 auto; /* Centra el carrusel horizontalmente en la página */
@@ -381,8 +506,36 @@ color: rgb(110, 103, 103);
   opacity: 1;
   filter: contrast(120%);
 }
+}
+@media screen and (max-width:1270px) {
+  #carouselwithIndicators {
+    width: 100%; /* Ajusta el ancho del carrusel según tus necesidades */
+    margin: 0 auto; /* Centra el carrusel horizontalmente en la página */
+  }
+  .carousel-item img {
+    object-fit: cover; /* Ajusta la imagen para que cubra el espacio asignado */
+    width: 50%; /* Haz que todas las imágenes ocupen el ancho completo del contenedor */
+    height: 100%; /* Asegura que todas las imágenes tengan la misma altura */
+  }
+  .custom-section-sitiosConsulta {
+    text-align: center;
+  }
+  .galeriaPrueba {
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+  }
+  .galeriaPrueba img {
+    width:  60%;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: .5s ease; 
+  }
+}
 
 /* ESTILO SECCION CONTACTO---------------------------------------------------------------------------------------------------------------*/
+ 
 .infoContacto {
   margin-bottom: auto;
   margin-top: auto;
@@ -398,11 +551,39 @@ color: rgb(110, 103, 103);
   margin-top: auto;
   margin-bottom: auto;
   /* cursor: pointer; */
-  width: 10%;
+  width: 18%;
   opacity: 1;
   filter: contrast(120%);
 
 }   
+
+/* Media query para pantallas más grandes (desktop) */
+@media only screen and (min-width: 600px) {
+  .contacto-desktop {
+      display: block; /* Muestra el div en pantallas más grandes */
+  }
+
+  .contacto-mobile {
+      display: none; /* Oculta el div para teléfonos */
+  }
+  
+}
+
+/* Media query para pantallas más pequeñas (teléfonos) */
+@media only screen and (max-width: 599px) {
+  .contacto-desktop {
+      display: none; /* Oculta el div para pantallas más pequeñas */
+  }
+
+  .contacto-mobile {
+      display: block; /* Muestra el div para teléfonos */
+  }
+
+  .infoContacto a {
+    display: inline-block;
+  } 
+}
+
 
 .imagenGmail {  
   transition: .5s ease;
@@ -441,3 +622,7 @@ color: rgb(110, 103, 103);
   border-style:groove;
 } 
 
+.iconosContacto {
+  margin: 10%;
+  position: relative;
+}
