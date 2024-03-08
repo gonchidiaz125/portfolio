@@ -422,7 +422,7 @@ color: rgb(110, 103, 103);
   height: auto; 
   width: 20%;
   padding-left: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 .logosCardsJs {
   max-width: 100%;
@@ -449,11 +449,17 @@ color: rgb(110, 103, 103);
 }
 .imagencards {
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 1%;
   margin-left: 10%;
   margin-right: 10%;
 }
-
+.CardsSQL{
+  max-width: 100%; 
+  height: auto; 
+  width: 35%;
+  padding-left: 2%;
+  margin-bottom: 10%;
+}
 /* ESTILO SECCION CONTACTO---------------------------------------------------------------------------------------------------------------*/
  
 .infoContacto {
