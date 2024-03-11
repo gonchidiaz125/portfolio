@@ -45,9 +45,6 @@
             <a class="nav-link scroll "  href="#ejemplos">Mis ejemplos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link scroll" href="#sitiosDeInteres">Sitios de interés</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link scroll" href="#contacto">Contacto</a>
           </li>
         </ul>
@@ -56,8 +53,8 @@
   </div>
 
         <div class="container">
-          <br>
-          <br>
+            <br>
+            <br>
           <section class="miNombre">
             <div class="contenedor">
               <img class="imagenDePerfil"src="/imagenes/perfil.jpeg" alt="perfil"> 
@@ -154,13 +151,12 @@
                 <br>
                 <br>
               </div>
-
             </div>
         </section>
             <br>
             <br>
             <br>
-        <section class="section-skill"id="inicio-skills">
+          <section class="section-skill"id="inicio-skills">
               <div class="titulos">
                 <h3>
                   <i class="fas fa-star "></i>
@@ -211,10 +207,10 @@
                   <img src="./imagenes/postman.jpg" class="logos" alt="">
                   <img src="./imagenes/Swagger.png" class="logos" alt="">
                 </div>
-        </section>
-          <br>
-          <br>
-          <br>
+          </section>
+            <br>
+            <br>
+            <br>
           <section class="section-ejemplo"id="ejemplos">
             <div class="titulos">
               <h3>
@@ -225,21 +221,31 @@
             <br>
             <br>
             <div class="row" style="justify-content: center "> 
+              <div class="col-md-3">
+                <div class="card" style="width: 16.5rem;">
+                    <img src="./imagenes/sqlSERVER.png" class="imagenBackend" alt="Imagen de Ejemplo de SQL Server">
+                    <div class="card-body">
+                        <h5 class="card-title">Ejemplo SQL Server</h5>
+                        <div class="contenido">
+                          <p id="textoCompleto">
+                              <span id="textoInicial">Serie de ejemplos de código utilizando la base de datos "AdventureWorks". <br><br><br><br></span>
+                          </p>
+                      </div>
+                        <img src="./imagenes/sqlSERVER.png" class="CardsSQL" alt="SQL Server">
+                        <br>                         
+                        <a href="#" class="btn btn-primary" onclick="redirigirHaciaEjemplo(event, 'https://gonzalodiaz-sqlserver.netlify.app/')">Ir a ejemplo</a>                        
+                    </div>
+                </div>
+              </div>
               <div class="col-lg-3 ">
-                  <div class="card" style="width: 16.5rem;">
+                  <div class="card" style="width: 16.5rem; padding-bottom: 5.5%;">
                       <img src="./imagenes/imagenValPassword.png" class="imagencards" alt="imagenvalidadorDePassword">
                       <div class="card-body">
                           <h5 class="card-title">Validación de Password (Front-end)</h5>
                           <div class="contenido">
                             <p id="textoCompleto">
-
-                               
-
                                 <span id="textoInicial1">Formulario para cambio de contraseña, aplicando todas las reglas para poder asegurar una contraseña segura.</span>
-                                <span id="textoCompletoOculto1" class="textoCompletoOculto">Formulario para cambio de contraseña, aplicando todas las reglas para poder asegurar una contraseña segura. Las validaciones se realizan tanto en Front-End (para mejorar la experiencia del usuario) como en el Back-End via una API .Net (para lograr seguridad) </span>
-
-                                <!-- <span id="textoInicial1">Formulario para cambio de contraseña, se deben cumplir todas las reglas para poder asegurar una contraseña segura.</span>
-                                <span id="textoCompletoOculto1" class="textoCompletoOculto"> Formulario para cambio de contraseña, se deben cumplir todas las reglas para poder asegurar una contraseña segura. A continuación puedes ver el ejemplo y probarlo haciendo clic en " ir a ejemplo " o puedes ver el codigo en el repositorio haciendo clic en "ver codigo" </span> -->
+                                <span id="textoCompletoOculto1" class="textoCompletoOculto">Formulario para cambio de contraseña, aplicando todas las reglas para poder asegurar una contraseña segura. Las validaciones se realizan tanto en Front-End (para mejorar la experiencia del usuario) como en el Back-End via una API .Net (para lograr seguridad) </span><br>
                                 <span id="verMas1" class="verMas" onclick="mostrarMas('textoInicial1', 'textoCompletoOculto1', 'verMas1')"> Ver más...</span>
                             </p>
                         </div>
@@ -248,7 +254,7 @@
                           <img src="./imagenes/css-3.png" class="logosCards" alt="logocss">
                           <img src="./imagenes/JS.png" class="logosCardsJs" alt="logoJS"> 
                           <br>
-                          <a href="#" class="btn btn-primary" onclick="redirigirHaciaEjemplo(event)">
+                          <a href="#" class="btn btn-primary" onclick="redirigirHaciaEjemplo(event, 'https://gonzalodiaz-validadordepassword.netlify.app/')">
                             Ir a ejemplo 
                             
                           </a>
@@ -288,6 +294,10 @@
                 </div>
               </div>
               <br>
+
+              <br>
+            </div>    
+            <div class="row" style="justify-content: center; margin-top: 3%;"> 
               <div class="col-lg-3">
                 <div class="card" style="width: 16.5rem;">
                     <img src="./imagenes/portfolio.png" class="imagencards" alt="imagenvalidadorDePassword">
@@ -295,7 +305,7 @@
                         <h5 class="card-title">Repositorio de portfolio</h5>
                         <div class="contenido">
                           <p id="textoCompleto">
-                              <span id="textoInicial">En este ejemplo podran observar el codigo y estructura de mi portfolio. <br><br><br></span>
+                              <span id="textoInicial">En este ejemplo podran observar el codigo y estructura de mi portfolio. <br><br><br><br></span>
                           </p>
                       </div>
                       <br>
@@ -309,59 +319,13 @@
                     </div>
                 </div>
               </div> 
-              <br>
-            </div>    
+              
+            </div>
           </section> 
-          <br>
-          <br>
-          <br>
-          <br>
-          <section id="sitiosDeInteres">
-              <div class="titulos">
-                <h3>
-                  <i class="fas fa-star "></i>
-                  Sitios de interes
-                </h3>
-              </div>  
-              <div class="galeriaPrueba">
-                <div onclick="redirigir(this)">
-                  <img src="imagenes/w3schools.png" alt="" >
-                  <a href="https://www.w3schools.com/"target="_blank"></a>
-                </div>
-                <div onclick="redirigir(this)">
-                <img src="/imagenes/stack-overflow.jpg" alt="">
-                <a href="https://es.stackoverflow.com/"target="_blank"></a>
-                </div>
-                <div onclick="redirigir(this)">
-                <img src="/imagenes/chatGPT.jpg" alt="">
-                <a href="https://chat.openai.com/"target="_blank"></a>
-                </div>
-                <div  onclick="redirigir(this)">
-                <img src="/imagenes/visual-studio.jpg" alt="">
-                <a href="https://visualstudio.microsoft.com/es/"target="_blank"></a>
-                </div>
-                <div  onclick="redirigir(this)">
-                <img src="/imagenes/nodejsImagen.png" alt="">
-                <a href="https://nodejs.org/"target="_blank"></a>
-                </div>
-                <div  onclick="redirigir(this)">
-                <img src="/imagenes/jqueryGrande.webp" alt="">
-                <a href="https://jquery.com/"target="_blank"></a>
-                </div>
-                <div   onclick="redirigir(this)">
-                <img src="/imagenes/bootstrapGrande.jpg" alt="">
-                <a href="https://getbootstrap.com/"target="_blank"></a>
-                </div>
-                <div   onclick="redirigir(this)">
-                <img src="/imagenes/ReactGrande.webp" alt="">
-                <a href="https://es.react.dev/"target="_blank"></a>
-                </div>
-              </div>
-          </section>
-          <br>
-          <br>
-          <br>
-          <br>         
+            <br>
+            <br>
+            <br>
+            <br>         
           <section class="seccionContacto" id="contacto">
             <div>
               <h3>
@@ -391,6 +355,7 @@
               </div>
             </div>
           </section>
+        </div>  
         
       
   </body>
