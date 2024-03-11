@@ -53,6 +53,17 @@ $(document).ready(function() {
   function crearExperiencias() {
 
     var listaDeExperiencias = [];
+    var experiencia = {
+      puesto: "Desarrollador Junior",
+      imagen: "./imagenes/micam_srl_logo.jpeg",
+      empresa: "Micam",
+      periodo: "septiembre de 2023 - Present (7 meses)",
+      ubicacion: "Córdoba, Argentina.",
+      descripcion: " " 
+    }
+
+    listaDeExperiencias.push(experiencia);
+    
     var experiencia1 = {
         puesto: "Técnico mecánico New Holland",
         imagen: "./imagenes/griffaSA.jpeg",
@@ -154,7 +165,109 @@ $(document).ready(function() {
   }
 
   crearExperiencias();
-  
+});
+
+$(document).ready(function() {  
+  $(".navbar-nav li a").on('click', function(){
+    // Verifica si el enlace clicado no es el que tiene el submenú
+    if (!$(this).parent().hasClass("dropdown")) {
+      $(".navbar-collapse").collapse('hide');
+    }
+  });
+  function CrearCursos(){
+
+    var listaDeCursos = [];
+
+    
+    var curso = {
+      titulo: "Scrum Foundation Professional CertificationScrum Foundation Professional Certification",
+      imagen: "./imagenes/certiprof_logo.jpeg",
+      aptitudes: "Aptitudes: Scrum, Metodologias Agiles",
+      periodo: "CertiProf - Expedición:  feb. 2024"
+    }
+
+     listaDeCursos.push(curso);
+
+    var curso1 = {
+      titulo: "Udemy C# TOTAL - Programador Experto en 28 días",
+      imagen: "./imagenes/udemy.png",
+      aptitudes: "Aptitudes: variables, métodos, arrays, declaraciones if, loops, Clases y Objetos, Herencia, Polimorfismo.",
+      periodo: "Udemy - Expedición: dic. 2023"
+    }
+
+     listaDeCursos.push(curso1);
+    var curso2 = {
+      titulo: "Udemy JavaScript Total - De Cero a Desarrollador Web en 18 días",
+      imagen: "./imagenes/udemy.png",
+      aptitudes: "Aptitudes: JavaScript, Hojas de estilos en cascada (CSS),HTML",
+      periodo: "Udemy - Expedición: dic. 2023"
+    }
+
+    listaDeCursos.push(curso2);
+    var curso3 = {
+      titulo: "Programación con JavaScript",
+      imagen: "./imagenes/movistar.jpeg",
+      aptitudes: "Aptitudes: JavaScript",
+      periodo: "Fundación Telefónica Movistar Argentina Expedición: nov. 2023"
+    }
+
+    listaDeCursos.push(curso3);
+
+    var curso4 = {
+      titulo: "Gestión de Proyectos con Metodologías Ágiles",
+      imagen: "./imagenes/movistar.jpeg",
+      aptitudes: "Aptitudes: Metodologías Ágiles",
+      periodo: "Fundación Telefónica Movistar Argentina Expedición: nov. 2023"
+    }
+
+    listaDeCursos.push(curso4);
+    var curso5 = {
+      titulo: "Diseño Web con HTML5 + CSS",
+      imagen: "./imagenes/movistar.jpeg",
+      aptitudes: "Aptitudes: Conocimiento de HTML5 + CSS",
+      periodo: "Fundación Telefónica Movistar Argentina Expedición: nov. 2023"
+    }
+
+    listaDeCursos.push(curso5);
+    var curso6 = {
+      titulo: "Aprende Wordpress de forma sencilla",
+      imagen: "./imagenes/movistar.jpeg",
+      aptitudes: "Aptitudes: Wordpress ",
+      periodo: "Fundación Telefónica Movistar Argentina Expedición: nov. 2023"
+    }
+
+    listaDeCursos.push(curso6);
+
+  contenedorDeCursos = document.getElementById("contenedor-cursos-realizados");
+
+  for (var i=0; i<listaDeCursos.length; i++) {
+  var curso = listaDeCursos[i];
+  var divCursos =`
+                <div class="contenedor-cursos">
+                  <div class="columna-cursos-imagen">
+                    <img class="imagen-experiencia" src="${curso.imagen}" alt="caroyaLogo">
+                  </div>
+                  <div class="columna-cursos-detalle">
+                    <div class="cursos-puesto">
+                      <p><b>${curso.titulo}</b></p>
+                    </div>
+                    <div class="experiencia-cursos">
+                      <p>${curso.aptitudes} </p>
+                    </div>
+                    <div class="cursos-periodo">
+                      <p>${curso.periodo}</p>
+                    </div>
+                  </div>
+                </div>`;
+      
+                const nuevoElemento = document.createElement('div');
+                nuevoElemento.innerHTML = divCursos;
+
+      contenedorDeCursos.appendChild(nuevoElemento);
+    }
+  }
+
+  CrearCursos();
 });
 
 
