@@ -1,10 +1,10 @@
 
 body {
     font-family: 'Nunito Sans', sans-serif;
-    padding-top: 3%; /* Ajuste para el Navbar fijo */       
+    padding-top: 4%; /* Ajuste para el Navbar fijo */       
     background-color:#2d6a4fc4;;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1300px) {
   body {
     padding-top: 14%; /* Ajuste para el Navbar fijo */ 
     padding-left: 5%;
@@ -111,7 +111,7 @@ h3 {
  }
 /*ESTILO BANDERA NAV BAR------------------------------------------------------------------------------------------------------------*/
 .bandera {
-  height: auto; /* Mantiene la proporción de la imagen */
+  height: auto;
   width: 2.5rem;
   padding-right: 1%;
 }
@@ -224,15 +224,13 @@ color: rgb(110, 103, 103);
     width: 70px;
   }
   .columna-experiencia-detalle {
-    /* flex: 100; Ocupa todo el espacio disponible */
     padding-left: 1%;
-    padding-right: 1%;/* Añade un espacio alrededor del contenido */
-   
+    padding-right: 1%;  
   }
   
   .columna-experiencia-imagen {
-    max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; 
+    height: auto; 
     width: 40%;
     padding-left: 1%;
   }
@@ -243,20 +241,19 @@ color: rgb(110, 103, 103);
 /* ESTILO EDUCACION---------------------------------------------------------------------------------------------------------------*/
 .contenedor-educación{
   display: flex;
-  border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
+  border-bottom: 1px solid #ccc; 
   padding-top: 10px;
 }
 
 .columna-educación-detalle {
-  /* flex: 100; Ocupa todo el espacio disponible */
-  padding: 10px; /* Añade un espacio alrededor del contenido */
+  padding: 10px; 
   padding-left: 12%;
   padding-right: 5%;
 }
 
 .columna-educación-imagen {
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
+  max-width: 100%;
+  height: auto; 
   width: 150px;
   padding-bottom: 30px;
   padding-left: 14%;
@@ -273,8 +270,8 @@ color: rgb(110, 103, 103);
   }
   
   .columna-educación-imagen {
-    max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; 
+    height: auto; 
     width: 30%;
     padding-left: 1%;
   }
@@ -287,20 +284,19 @@ color: rgb(110, 103, 103);
 /* ESTILO CURSOS---------------------------------------------------------------------------------------------------------------*/
 .contenedor-cursos{
   display: flex;
-  border-bottom: 1px solid #ccc; /* Definir un borde inferior gris */
+  border-bottom: 1px solid #ccc; 
   padding-top: 10px;
 }
 
 .columna-cursos-detalle {
-  /* flex: 100; Ocupa todo el espacio disponible */
-  padding: 10px; /* Añade un espacio alrededor del contenido */
+  padding: 10px;
   padding-left: 12%;
   padding-right: 5%;
 }
 
 .columna-cursos-imagen {
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
+  max-width: 100%; 
+  height: auto; 
   width: 150px;
   padding-bottom: 3%;
   padding-left: 14%;
@@ -317,8 +313,8 @@ color: rgb(110, 103, 103);
   }
   
   .columna-cursos-imagen {
-    max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; 
+    height: auto; 
     width: 150px;
     padding-bottom: 3%;
     padding-left: 1%;
@@ -415,11 +411,6 @@ color: rgb(110, 103, 103);
 }
 
 /*ESTILO DE SECCION DE EJEMPLOS------------------------------------------------------------------------------------------------*/
-/* @media screen and (max-width:500px) {
-  #CordobaArgentina{
-   display: none;
-  }
- } */
  @media screen and (max-width:1270px) {
   .col-lg-3 {
     width: 18rem;
@@ -427,11 +418,11 @@ color: rgb(110, 103, 103);
 }}
 
 .logosCards {
-  max-width: 100%; /* Asegura que la imagen no supere el ancho del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
+  max-width: 100%; 
+  height: auto; 
   width: 20%;
   padding-left: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 3%;
 }
 .logosCardsJs {
   max-width: 100%;
@@ -458,82 +449,17 @@ color: rgb(110, 103, 103);
 }
 .imagencards {
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 1%;
   margin-left: 10%;
   margin-right: 10%;
 }
-/*ESTILO DE CARRUSEL-----------------------------------------------------------------------------------------------------------*/
-@media screen and (min-width:1270px) {
-#carouselwithIndicators {
-  width: 100%; /* Ajusta el ancho del carrusel según tus necesidades */
-  margin: 0 auto; /* Centra el carrusel horizontalmente en la página */
+.CardsSQL{
+  max-width: 100%; 
+  height: auto; 
+  width: 35%;
+  padding-left: 2%;
+  margin-bottom: 10%;
 }
-
-.carousel-inner {
-  height: 300%; /* Ajusta la altura del carrusel según tus necesidades */
-}
-
-.carousel-item img {
-  object-fit: cover; /* Ajusta la imagen para que cubra el espacio asignado */
-  width: 50%; /* Haz que todas las imágenes ocupen el ancho completo del contenedor */
-  height: 100%; /* Asegura que todas las imágenes tengan la misma altura */
-}
-.custom-section-sitiosConsulta {
-  text-align: center;
-}
-
-.galeriaPrueba {
-  text-align: center;
-  margin-top: 5%;
-  width: 100%;
-  height: auto;
-}
-
-.galeriaPrueba img {
-  width:  30%;
-  flex-grow: 1;
-  object-fit: cover;
-  opacity: .8;
-  transition: .5s ease;
-
-}
-
-.galeriaPrueba img:hover {
-  margin-top: auto;
-  margin-bottom: auto;
-  cursor: pointer;
-  width: 50%;
-  opacity: 1;
-  filter: contrast(120%);
-}
-}
-@media screen and (max-width:1270px) {
-  #carouselwithIndicators {
-    width: 100%; /* Ajusta el ancho del carrusel según tus necesidades */
-    margin: 0 auto; /* Centra el carrusel horizontalmente en la página */
-  }
-  .carousel-item img {
-    object-fit: cover; /* Ajusta la imagen para que cubra el espacio asignado */
-    width: 50%; /* Haz que todas las imágenes ocupen el ancho completo del contenedor */
-    height: 100%; /* Asegura que todas las imágenes tengan la misma altura */
-  }
-  .custom-section-sitiosConsulta {
-    text-align: center;
-  }
-  .galeriaPrueba {
-    text-align: center;
-    margin-top: 10%;
-    width: 100%;
-    height: auto;
-  }
-  .galeriaPrueba img {
-    width:  60%;
-    flex-grow: 1;
-    object-fit: cover;
-    transition: .5s ease; 
-  }
-}
-
 /* ESTILO SECCION CONTACTO---------------------------------------------------------------------------------------------------------------*/
  
 .infoContacto {
