@@ -57,7 +57,7 @@ $(document).ready(function() {
       puesto: "Desarrollador Junior",
       imagen: "./imagenes/micam_srl_logo.jpeg",
       empresa: "Micam",
-      periodo: "septiembre de 2023 - Present (7 meses)",
+      periodo: "Septiembre de 2023 - Presente (7 meses)",
       ubicacion: "Córdoba, Argentina.",
       descripcion: " " 
     }
@@ -68,7 +68,7 @@ $(document).ready(function() {
         puesto: "Técnico mecánico New Holland",
         imagen: "./imagenes/griffaSA.jpeg",
         empresa: "GRIFFA S.A.",
-        periodo: "Enero de 2021 - agosto de 2023 (2 años 8 meses)",
+        periodo: "Enero de 2021 - Agosto de 2023 (2 años 8 meses)",
         ubicacion: "Sinsacate, Córdoba, Argentina.",
         descripcion: "Colocación de pilotos automáticos y sistemas de PLM (Agricultura de precisión) con su respectiva señal y calibración (unidad y apero), " +
         "diagnóstico computarizado de unidades nuevas y usadas, actualizaciones de software, ecu de motor y transmisión, " +
@@ -81,7 +81,7 @@ $(document).ready(function() {
         puesto: "Vendedor",
         imagen: "./imagenes/caroya_logo.jpeg",
         empresa: "Caroya SA",
-        periodo: "Octubre de 2019 - enero de 2021 (1 año 4 meses) ",
+        periodo: "Octubre de 2019 - Enero de 2021 (1 año 4 meses)",
         ubicacion: "Jesús María, Córdoba, Argentina.",
         descripcion: "Ventas por mayor y menor, Presupuestos, Cobranzas, Atención al público, Preparación y despacho de mercadería, Control de stock.",
     }
@@ -93,9 +93,9 @@ $(document).ready(function() {
       puesto: "Chofer",
       imagen: "./imagenes/JMcarnes.png",
       empresa: "Jesús María Carnes SRL ",
-      periodo: " Julio de 2015 - marzo de 2018 (2 años 9 meses) ",
+      periodo: " Julio de 2015 - Marzo de 2018 (2 años 9 meses)",
       ubicacion: "Jesús María, Córdoba, Argentina.",
-      descripcion: " Chofer de vehículo para reparto de sustancias alimenticias a las sucursales de dicha empresa y a clientes (carnes, pollos, gaseosas, alimentos no perecederos, etc.) Cobranza a cliente, Limpieza y organización de depósito.",
+      descripcion: "Chofer de vehículo para reparto de sustancias alimenticias a las sucursales de dicha empresa y a clientes (carnes, pollos, gaseosas, alimentos no perecederos, etc.) Cobranza a cliente, Limpieza y organización de depósito.",
   }
 
   listaDeExperiencias.push(experiencia3);
@@ -105,7 +105,7 @@ $(document).ready(function() {
     puesto: "Entrenador de acondicionamiento físico",
     imagen: "./imagenes/cearpgym.jpg",
     empresa: "Cearp GYM",
-    periodo: " Abril de 2011 - junio de 2015 (4 años 3 meses)",
+    periodo: " Abril de 2011 - Junio de 2015 (4 años 3 meses)",
     ubicacion: "Jesús María, Córdoba, Argentina.",
     descripcion: "Tareas a cargo: Encargado de gimnasio, atención al público, dictado de planes de entrenamiento y demostración técnica de cada ejercicio. Mantenimiento de orden y limpieza del establecimiento. Administración de cuotas de los inscriptos.",
 }
@@ -116,7 +116,7 @@ $(document).ready(function() {
     puesto: "Camarero",
     imagen: "./imagenes/laestacion.png",
     empresa: "La Estación (Pizzeria-Lomiteria)",
-    periodo: "Octubre de 2019 - enero de 2021 (1 año 4 meses) ",
+    periodo: "Octubre de 2019 - Enero de 2021 (1 año 4 meses)",
     ubicacion: "Jesús María, Córdoba, Argentina.",
     descripcion: "Temporadas de verano de 2012 - 2013 - 2014 - 2015 <br> Tareas a cargo: Atención al público. Mozo, y encargado de caja registradora.",
   }
@@ -141,7 +141,7 @@ $(document).ready(function() {
                       <p>
                         ${experienca.empresa}
                       <br>
-                        ${experienca.periodo}}
+                        ${experienca.periodo}
                       <br>
                         ${experienca.ubicacion}
                       </p>
@@ -183,7 +183,7 @@ $(document).ready(function() {
       titulo: "Scrum Foundation Professional CertificationScrum Foundation Professional Certification",
       imagen: "./imagenes/certiprof_logo.jpeg",
       aptitudes: "Aptitudes: Scrum, Metodologias Agiles",
-      periodo: "CertiProf - Expedición:  feb. 2024"
+      periodo: "CertiProf - Expedición: Febrero 2024"
     }
 
      listaDeCursos.push(curso);
@@ -192,7 +192,7 @@ $(document).ready(function() {
       titulo: "Udemy C# TOTAL - Programador Experto en 28 días",
       imagen: "./imagenes/udemy.png",
       aptitudes: "Aptitudes: variables, métodos, arrays, declaraciones if, loops, Clases y Objetos, Herencia, Polimorfismo.",
-      periodo: "Udemy - Expedición: dic. 2023"
+      periodo: "Udemy - Expedición: Diciembre 2023"
     }
 
      listaDeCursos.push(curso1);
@@ -200,7 +200,7 @@ $(document).ready(function() {
       titulo: "Udemy JavaScript Total - De Cero a Desarrollador Web en 18 días",
       imagen: "./imagenes/udemy.png",
       aptitudes: "Aptitudes: JavaScript, Hojas de estilos en cascada (CSS),HTML",
-      periodo: "Udemy - Expedición: dic. 2023"
+      periodo: "Udemy - Expedición: Diciembre 2023"
     }
 
     listaDeCursos.push(curso2);
@@ -208,7 +208,7 @@ $(document).ready(function() {
       titulo: "Programación con JavaScript",
       imagen: "./imagenes/movistar.jpeg",
       aptitudes: "Aptitudes: JavaScript",
-      periodo: "Fundación Telefónica Movistar Argentina Expedición: nov. 2023"
+      periodo: "Fundación Telefónica Movistar Argentina - Expedición: Noviembre 2023"
     }
 
     listaDeCursos.push(curso3);
@@ -217,7 +217,7 @@ $(document).ready(function() {
       titulo: "Gestión de Proyectos con Metodologías Ágiles",
       imagen: "./imagenes/movistar.jpeg",
       aptitudes: "Aptitudes: Metodologías Ágiles",
-      periodo: "Fundación Telefónica Movistar Argentina Expedición: nov. 2023"
+      periodo: "Fundación Telefónica Movistar Argentina - Expedición: Noviembre 2023"
     }
 
     listaDeCursos.push(curso4);
@@ -225,7 +225,7 @@ $(document).ready(function() {
       titulo: "Diseño Web con HTML5 + CSS",
       imagen: "./imagenes/movistar.jpeg",
       aptitudes: "Aptitudes: Conocimiento de HTML5 + CSS",
-      periodo: "Fundación Telefónica Movistar Argentina Expedición: nov. 2023"
+      periodo: "Fundación Telefónica Movistar Argentina - Expedición: Noviembre 2023"
     }
 
     listaDeCursos.push(curso5);
@@ -233,7 +233,7 @@ $(document).ready(function() {
       titulo: "Aprende Wordpress de forma sencilla",
       imagen: "./imagenes/movistar.jpeg",
       aptitudes: "Aptitudes: Wordpress ",
-      periodo: "Fundación Telefónica Movistar Argentina Expedición: nov. 2023"
+      periodo: "Fundación Telefónica Movistar Argentina - Expedición: Noviembre 2023"
     }
 
     listaDeCursos.push(curso6);
