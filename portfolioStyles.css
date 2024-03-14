@@ -427,8 +427,8 @@ color: rgb(110, 103, 103);
 .logosCardsJs {
   max-width: 100%;
   height: auto; 
-  width: 21.5%;
-  margin-bottom: 2%;
+  width: 22.5%;
+  margin-bottom: 4%;
 }
 
 .textoCompletoOculto {
@@ -452,6 +452,13 @@ color: rgb(110, 103, 103);
   margin-bottom: 1%;
   margin-left: 10%;
   margin-right: 10%;
+}
+.imagenBackendNodeJs {
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .CardsSQL{
   max-width: 100%; 
