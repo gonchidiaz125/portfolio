@@ -59,7 +59,10 @@ $(document).ready(function() {
       empresa: "Micam",
       periodo: "Septiembre de 2023 - Presente (7 meses)",
       ubicacion: "Córdoba, Argentina.",
-      descripcion: " " 
+      descripcion: "Esta es mi primer experiencia profesional en el mundo de IT. Trabajo como desarrollador .Net/C#, con base de datos SQL Server." + 
+                   "En cuanto a Front-end utilizo tecnologías como HTML, JS, CSS, Bootstrap, JQuery y algo de React." + 
+                   "Ya participé en proyectos de integraciones de aplicaciones mediante APIs y un sitio web dirigido a bikers." + 
+                   "Utilizamos metodologías ágiles (Kanban), github, Discord para la comunicación y Asana para la gestión de los proyectos. " 
     }
 
     listaDeExperiencias.push(experiencia);
@@ -72,7 +75,7 @@ $(document).ready(function() {
         ubicacion: "Sinsacate, Córdoba, Argentina.",
         descripcion: "Colocación de pilotos automáticos y sistemas de PLM (Agricultura de precisión) con su respectiva señal y calibración (unidad y apero), " +
         "diagnóstico computarizado de unidades nuevas y usadas, actualizaciones de software, ecu de motor y transmisión, " +
-        "entregas técnicas (capacitaciones de uso de la unidad) a clientes al campo, servicios técnicos en campos de los clientes en cualquier punto del país.",
+        "entregas técnicas (capacitaciones de uso de la unidad) a clientes al campo, servicios técnicos en campos de los clientes en cualquier punto del país."
     }
 
     listaDeExperiencias.push(experiencia1);
