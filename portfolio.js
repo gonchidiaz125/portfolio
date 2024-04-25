@@ -57,7 +57,7 @@ $(document).ready(function() {
       puesto: "Desarrollador Junior",
       imagen: "./imagenes/micam_srl_logo.jpeg",
       empresa: "Micam",
-      periodo: "Septiembre de 2023 - Presente (7 meses)",
+      periodo: "Septiembre de 2023 - Presente",
       ubicacion: "Córdoba, Argentina.",
       descripcion: "Esta es mi primer experiencia profesional en el mundo de IT. Trabajo como desarrollador .Net/C#, con base de datos SQL Server." + 
                    "En cuanto a Front-end utilizo tecnologías como HTML, JS, CSS, Bootstrap, JQuery y algo de React." + 
@@ -71,7 +71,7 @@ $(document).ready(function() {
         puesto: "Técnico mecánico New Holland",
         imagen: "./imagenes/griffaSA.jpeg",
         empresa: "GRIFFA S.A.",
-        periodo: "Enero de 2021 - Agosto de 2023 (2 años 8 meses)",
+        periodo: "Enero de 2021 - Agosto de 2023",
         ubicacion: "Sinsacate, Córdoba, Argentina.",
         descripcion: "Colocación de pilotos automáticos y sistemas de PLM (Agricultura de precisión) con su respectiva señal y calibración (unidad y apero), " +
         "diagnóstico computarizado de unidades nuevas y usadas, actualizaciones de software, ecu de motor y transmisión, " +
@@ -84,7 +84,7 @@ $(document).ready(function() {
         puesto: "Vendedor",
         imagen: "./imagenes/caroya_logo.jpeg",
         empresa: "Caroya SA",
-        periodo: "Octubre de 2019 - Enero de 2021 (1 año 4 meses)",
+        periodo: "Octubre de 2019 - Enero de 2021",
         ubicacion: "Jesús María, Córdoba, Argentina.",
         descripcion: "Ventas por mayor y menor, Presupuestos, Cobranzas, Atención al público, Preparación y despacho de mercadería, Control de stock.",
     }
@@ -96,35 +96,12 @@ $(document).ready(function() {
       puesto: "Chofer",
       imagen: "./imagenes/JMcarnes.png",
       empresa: "Jesús María Carnes SRL ",
-      periodo: " Julio de 2015 - Marzo de 2018 (2 años 9 meses)",
+      periodo: " Julio de 2015 - Marzo de 2018",
       ubicacion: "Jesús María, Córdoba, Argentina.",
       descripcion: "Chofer de vehículo para reparto de sustancias alimenticias a las sucursales de dicha empresa y a clientes (carnes, pollos, gaseosas, alimentos no perecederos, etc.) Cobranza a cliente, Limpieza y organización de depósito.",
   }
 
   listaDeExperiencias.push(experiencia3);
-
-  
-  var experiencia4 = {
-    puesto: "Entrenador de acondicionamiento físico",
-    imagen: "./imagenes/cearpgym.jpg",
-    empresa: "Cearp GYM",
-    periodo: " Abril de 2011 - Junio de 2015 (4 años 3 meses)",
-    ubicacion: "Jesús María, Córdoba, Argentina.",
-    descripcion: "Tareas a cargo: Encargado de gimnasio, atención al público, dictado de planes de entrenamiento y demostración técnica de cada ejercicio. Mantenimiento de orden y limpieza del establecimiento. Administración de cuotas de los inscriptos.",
-}
-
-  listaDeExperiencias.push(experiencia4);
-
-  var experiencia5 = {
-    puesto: "Camarero",
-    imagen: "./imagenes/laestacion.png",
-    empresa: "La Estación (Pizzeria-Lomiteria)",
-    periodo: "Octubre de 2019 - Enero de 2021 (1 año 4 meses)",
-    ubicacion: "Jesús María, Córdoba, Argentina.",
-    descripcion: "Temporadas de verano de 2012 - 2013 - 2014 - 2015 <br> Tareas a cargo: Atención al público. Mozo, y encargado de caja registradora.",
-  }
-
-  listaDeExperiencias.push(experiencia5);
   
     contenedorDeExperiencias = document.getElementById("contenedor-experiencias-laborales-nuevo");
 
