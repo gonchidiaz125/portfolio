@@ -337,6 +337,14 @@ color: rgb(110, 103, 103);
 .tituloSkills h5 {
   font-weight: bold;
 }
+.logosNet{
+  max-width: 100%; 
+  height: auto; 
+  width: 11%;
+  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-left: 1%;;
+}
 
 .logos{
   max-width: 100%; 
@@ -384,6 +392,15 @@ color: rgb(110, 103, 103);
     padding-top: 1%;
     padding-left: 1%;
   }
+  .logosNet{
+    max-width: 110%; 
+    height: auto; 
+    width: 35%;
+    padding-bottom: 15%;
+    padding-top: 1%;
+    padding-left: 1%;
+  }
+
   .logosJs {
     max-width: 100%; 
     height: auto; 
