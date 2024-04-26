@@ -172,7 +172,13 @@ h3 {
   color: #0f0f0f;
   padding-left: 3%;
 }
-
+@media screen and (max-width:500px) {
+  #nombre {
+    z-index: 10;
+    color: #0f0f0f;
+    padding-left: 10%;
+  }
+}
 
 /* ESTILO EXPERIENCIAS---------------------------------------------------------------------------------------------------------------*/
 
