@@ -424,6 +424,13 @@ color: rgb(110, 103, 103);
   padding-left: 2%;
   margin-bottom: 3%;
 }
+.logosCardsVite {
+  max-width: 100%; 
+  height: auto; 
+  width: 21%;
+  padding-left: 2%;
+  margin-bottom: 3%;
+}
 .logosCardsJs {
   max-width: 100%;
   height: auto; 
