@@ -53,19 +53,6 @@ $(document).ready(function() {
   function crearExperiencias() {
 
     var listaDeExperiencias = [];
-    var experiencia = {
-      puesto: "Desarrollador Junior",
-      imagen: "./imagenes/micam_srl_logo.jpeg",
-      empresa: "Micam",
-      periodo: "Septiembre de 2023 - Presente",
-      ubicacion: "Córdoba, Argentina.",
-      descripcion: "Esta es mi primer experiencia profesional en el mundo de IT. Trabajo como desarrollador .Net/C#, con base de datos SQL Server." + 
-                   "En cuanto a Front-end utilizo tecnologías como HTML, JS, CSS, Bootstrap, JQuery y algo de React." + 
-                   "Ya participé en proyectos de integraciones de aplicaciones mediante APIs y un sitio web dirigido a bikers." + 
-                   "Utilizamos metodologías ágiles (Kanban), github, Discord para la comunicación y Asana para la gestión de los proyectos. " 
-    }
-
-    listaDeExperiencias.push(experiencia);
     
     var experiencia1 = {
         puesto: "Técnico mecánico New Holland",
